@@ -1,0 +1,5038 @@
+VAA20				
+				
+Projekt-ID	729893			
+URL der Umfrage	https://ww2.unipark.de/uc/mauve_Heinrich-Heine-Universit__/dec0/			
+Datum	09.12.2020 10:46:21			
+				
+1 Seite: System (PGID 4650162)				
+				
+				
+3 Seite: Politisches Interesse 1 (PGID 4822338)				
+				
+How much do you agree with the following statements? (q_8841496 - Typ 311)				
+v_100	v_100	int	I am generally interested in politics.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_101	v_101	int	I inform myself about political issues.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_102	v_102	int	I can understand and assess important political issues well.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+				
+				
+				
+4 Seite: Wahlentscheidung (PGID 4683759)				
+				
+When a federal election is coming up, for example, many people think about which party they will vote for. How important are the following aspects for your voting decision? (q_8586189 - Typ 311)				
+v_69	v_69	int	Election program of the party	
+		1	not important at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very important	
+v_70	v_70	int	Positions of the party on political issues	
+		1	not important at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very important	
+v_71	v_71	int	Justifications of the party positions	
+		1	not important at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very important	
+v_72	v_72	int	"Previous voting decisions (""Almost always vote for the same party."")"	
+		1	not important at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very important	
+v_74	v_74	int	Personnel/top candidates of the party	
+		1	not important at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very important	
+v_103	v_103	int	Identification with a party	
+		1	not important at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very important	
+				
+				
+Hier platzieren Sie den Text für Ihre Frage. (q_8644349 - Typ 911)				
+v_77	v_77	varchar	Token assigned	
+v_84	v_84	varchar	Mode	
+				
+				
+				
+5 Seite: VAA-Benutzung (PGID 4650176)				
+				
+Have you ever used applications like Wahl-O-Mat? (q_8521878 - Typ 111)				
+v_1	v_1	int	VAA used?	
+		1	Yes	
+		2	No, but I know what the Wahl-O-Mat is.	
+		3	I don’t know what the Wahl-O-Mat is.	
+				
+				
+Wie sehr stimmen Sie den folgenden Aussagen zu? (q_8521882 - Typ 311)				
+v_3	v_3	int	Before you have to state your own opinion, Wahl-O-Mat should also be able to directly display arguments for and against a thesis.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_4	v_4	int	The Wahl-O-Mat should ask not only for my opinion on a thesis, but also for my arguments regarding my opinion, and use these to determine how well I agree with the parties.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+				
+				
+				
+6 Seite: Parteineigung (PGID 4650187)				
+				
+What do you think of the individual political parties? What do you think of the … (q_8521899 - Typ 311)				
+v_9	v_9	int	CDU/CSU	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_11	v_11	int	SPD	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_12	v_12	int	Die Linke	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_13	v_13	int	FDP	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_14	v_14	int	AfD	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_15	v_15	int	Bündnis 90/Die Grünen	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+				
+				
+				
+7 Seite: Modus: VAA (PGID 4804660)				
+				
+Filter				
+ 	 v_84 Modus	 Hier platzieren Sie den Text für Ihre Frage. - Modus 	enthält	vaa
+				
+				
+7.1 Seite: Erklärung VAA: VAA (PGID 4810191)				
+				
+Plausichecks				
+kann ich meine Meinung (Zustimmung/Ablehnung) zu politischen Thesen angeben. (v_86) != Richtig ODER kann ich am Ende sehen, welche Argumente Parteien zu einer These anführen. (v_88) != Richtig ODER kann ich Nachrichten an Parteien schicken. (v_90) != Falsch				
+				
+In ArgVote … (q_8819711 - Typ 311)				
+v_86	v_86	int	I can state my opinion (agreement/disagreement) on political theses.	
+		1	Richtig	
+		2	Falsch	
+v_88	v_88	int	I can see at the end which arguments parties use for a thesis.	
+		1	Richtig	
+		2	Falsch	
+v_90	v_90	int	I can send messages to parties.	
+		1	Richtig	
+		2	Falsch	
+				
+				
+				
+8 Seite: Modus: Brenneis (PGID 4804665)				
+				
+Filter				
+ 	 v_84 Modus	 Hier platzieren Sie den Text für Ihre Frage. - Modus 	enthält	brenneis
+				
+				
+8.1 Seite: Erklärung VAA: Brenneis (PGID 4650196)				
+				
+Plausichecks				
+kann ich meine Meinung (Zustimmung/Ablehnung) zu politischen Thesen angeben. (v_17) != Richtig ODER kann ich angeben, warum ich einer These zustimme bzw. sie ablehne. (v_18) != Richtig ODER kann ich am Ende sehen, welche Argumente Parteien zu einer These anführen. (v_19) != Richtig ODER kann ich Nachrichten an Parteien schicken. (v_22) != Falsch				
+				
+In ArgVote … (q_8521947 - Typ 311)				
+v_17	v_17	int	I can state my opinion (agreement/disagreement) on political theses.	
+		1	Richtig	
+		2	Falsch	
+v_18	v_18	int	I can state why I agree or disagree with a thesis.	
+		1	Richtig	
+		2	Falsch	
+v_19	v_19	int	I can see at the end which arguments parties use for a thesis.	
+		1	Richtig	
+		2	Falsch	
+v_22	v_22	int	I can send messages to parties.	
+		1	Richtig	
+		2	Falsch	
+				
+				
+				
+10 Seite: Aufgaben (PGID 4650326)				
+				
+There were several functions in ArgVote. Regardless of whether you actually used a function - Which functions were there? (q_8522134 - Typ 311)				
+v_27	v_27	int	I was asked to state my opinion (agree/neutral/disagree) on various political theses.	
+		1	Yes	
+		2	No	
+v_28	v_28	int	It was possible to skip a thesis (i.e., neither agree nor disagree or be neutral).	
+		1	Yes	
+		2	No	
+v_29	v_29	int	Ich konnte Argumente auswählen, um zu begründen, weshalb ich für/gegen eine These bin.	
+		1	Yes	
+		2	No	
+v_30	v_30	int	I could select arguments to justify why I am for/against a thesis.	
+		1	Yes	
+		2	No	
+v_31	v_31	int	I had to write a message to a party of my choice.	
+		1	Yes	
+		2	No	
+				
+				
+				
+10.1 Seite: Qualityfail: Aufgaben (PGID 4650344)				
+				
+Filter				
+ 	 v_31 Ich musste eine Nachricht an eine Partei meiner Wahl schreiben.	 Es gab in ArgVote verschiedene Funktionen. Unabhängig davon, ob Sie eine Funktion tatsächlich benutzt haben – Welche Funktionen gab es? - Ich musste eine Nachricht an eine Partei meiner Wahl schreiben. 	gleich	1
+				
+				
+11 Seite: Benutzung (PGID 4650342)				
+				
+Which of the following functions did you use? I have made use of … (q_8522175 - Typ 311)				
+v_32	v_32	int	Agree or disagree with an argument about a thesis.	
+		1	Never	
+		2	sometimes	
+		3	often	
+		4	I did not know that this function existed.	
+			^ Hide if : (check_character_filter['vaa', v_84])	
+v_33	v_33	int	Mark a thesis as important.	
+		1	Never	
+		2	sometimes	
+		3	often	
+		4	I did not know that this function existed.	
+v_34	v_34	int	mark an argument as important.	
+		1	Never	
+		2	sometimes	
+		3	often	
+		4	I did not know that this function existed.	
+			^ Hide if : (check_character_filter['vaa', v_84])	
+v_35	v_35	int	Mark an argument as important.	
+		1	Never	
+		2	sometimes	
+		3	often	
+		4	I did not know that this function existed.	
+			^ Hide if : (check_character_filter['vaa', v_84])	
+v_36	v_36	int	To see at the end what arguments the parties used.	
+		1	Never	
+		2	sometimes	
+		3	often	
+		4	I did not know that this function existed.	
+v_75	v_75	int	"View reasons for an argument (button ""more …"")"	
+		1	Never	
+		2	sometimes	
+		3	often	
+		4	I did not know that this function existed.	
+			^ Hide if : (check_character_filter['vaa', v_84])	
+				
+				
+				
+12 Seite: Nützlichkeit (PGID 4650389)				
+				
+How useful did you find the function, … (q_8522315 - Typ 311)				
+v_37	v_37	int	... to be able to see the arguments of the parties at the end.	
+		1	not useful at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very useful	
+			^ Hide if : (v_36 = '4')	
+v_40	v_40	int	... to be able to mark theses as important.	
+		1	not useful at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very useful	
+			^ Hide if : (v_33 = '4')	
+v_41	v_41	int	... to be able to mark arguments as important.	
+		1	not useful at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very useful	
+			^ Hide if : (v_34 = '4' or check_character_filter['vaa', v_84])	
+v_76	v_76	int	"... to be able to see reasons for an argument (""more ..."")."	
+		1	not useful at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very useful	
+			^ Hide if : (v_75 = '4' or check_character_filter['vaa', v_84])	
+v_94	v_94	int	... to be able to see arguments to a thesis.	
+		1	not useful at all	
+		2	 	
+		3	 	
+		4	 	
+		5	very useful	
+			^ Hide if : (check_character_filter['vaa', v_84])	
+				
+				
+				
+13 Seite: Schwierigkeit (PGID 4650394)				
+				
+How difficult were the following tasks for you?  (q_8522319 - Typ 311)				
+v_42	v_42	int	state my opinion (agree, neutral, disagree) on the theses	
+		1	very hard	
+		2	 	
+		3	 	
+		4	 	
+		5	very easy	
+v_43	v_43	int	agree/disagree with arguments	
+		1	very hard	
+		2	 	
+		3	 	
+		4	 	
+		5	very easy	
+			^ Hide if : (v_34 = '4' or check_character_filter['vaa', v_84])	
+v_44	v_44	int	mark a thesis as important	
+		1	very hard	
+		2	 	
+		3	 	
+		4	 	
+		5	very easy	
+			^ Hide if : (v_33 = '4')	
+v_45	v_45	int	mark an argument as particularly important	
+		1	very hard	
+		2	 	
+		3	 	
+		4	 	
+		5	very easy	
+			^ Hide if : (v_34 = '4' or check_character_filter['vaa', v_84])	
+				
+				
+				
+14 Seite: Politisches Interesse (PGID 4822331)				
+				
+Wie sehr stimmen Sie folgenden Aussagen zu? (q_8841490 - Typ 311)				
+v_95	v_95	int	I am generally interested in politics.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_96	v_96	int	I inform myself about political issues.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_97	v_97	int	I can understand and assess important political issues well.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+				
+				
+				
+15 Seite: Informiertheit (PGID 4679858)				
+				
+How much do you agree with the following statements? (q_8522463 - Typ 311)				
+v_47	v_47	int	I became aware of political issues through the use of ArgVote.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_48	v_48	int	After using ArgVote, the difference between the parties is clearer to me.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_49	v_49	int	Click ”fully agree”	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_85	v_85	int	Using ArgVote has given me a better understanding of some political issues.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_91	v_91	int	After using ArgVote, it is clearer to me why there are different opinions on certain theses.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+				
+				
+				
+15.1 Seite: Qualityfail: Lesen (PGID 4650510)				
+				
+Filter				
+ 	" v_49 Klicken Sie auf ""fully agree"""	" How much do you agree with the following statements? - Klicken Sie auf ""fully agree"" "	kleiner	5
+				
+				
+16 Seite: Usability (PGID 4650456)				
+				
+How much do you agree with the following statements? (q_8522473 - Typ 311)				
+v_52	v_52	int	ArgVote appeared cluttered to me.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_53	v_53	int	ArgVote was self-explanatory.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_55	v_55	int	I did not understand how ArgVote works.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_67	v_67	int	I had no problems navigating in ArgVote.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_92	v_92	int	I would use ArgVote again.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+v_93	v_93	int	I enjoyed using ArgVote.	
+		1	do not agree at all	
+		2	 	
+		3	 	
+		4	 	
+		5	fully agree	
+				
+				
+I have the following comments about ArgVote: (q_8522484 - Typ 142)				
+v_56	v_56	blob	Suggestions	
+				
+				
+				
+17 Seite: Parteineigung 2 (PGID 4650473)				
+				
+What do you think of the individual political parties? What do you think of the … (q_8522499 - Typ 311)				
+v_57	v_57	int	CDU/CSU	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_59	v_59	int	SPD	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_60	v_60	int	Die Linke	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_61	v_61	int	FDP	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_62	v_62	int	AfD	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+v_63	v_63	int	Bündnis 90/Die Grünen	
+		1	nothing at all	
+		2	 	
+		3	 	
+		4	 	
+		5	 	
+		6	 	
+		7	 	
+		8	 	
+		9	 	
+		10	very much	
+				
+				
+				
+18 Seite: Persönliche Angaben (PGID 4650290)				
+				
+What is your gender? (q_8522062 - Typ 111)				
+v_23	v_23	int	Gender	
+		1	male	
+		2	female	
+		3	diverse	
+		4	other:	
+v_24	v_24	varchar	other:	
+				
+				
+How old are you? (q_8522064 - Typ 141)				
+v_25	v_25	varchar (mit Typencheck: Ganzzahl)	Age	
+				
+				
+What is your highest educational qualification? (q_8522073 - Typ 111)				
+v_26	v_26	int	Education	
+		1	Finished school without graduation	
+		2	Elementary/secondary school diploma or polytechnic high school with 8th or 9th class diploma	
+		3	Mittlere Reife, Realschulabschluss or Polytechnische Oberschule with completion of 10th class	
+		4	Advanced technical college certificate (completion of a specialized secondary school, etc.)	
+		5	Abitur or Erweiterte Oberschule with completion of 12th class (university entrance qualification)	
+		6	University or technical college degree	
+		7	I do not yet have an educational qualification, but I am still at school	
+				
+				
+				
+19 Seite: Verlosung (PGID 4800600)				
+				
+Trigger				
+Mailtrigger - Gewinnspiel-Teilnahme - Bedingung:  - Ausführungsposition: nach dem Abschicken, vor Filtern				
+Rekodierungstrigger - Mailadressentfernung - Bedingung:  - Ausführungsposition: nach dem Abschicken, vor Filtern				
+				
+E-Mailadresse (q_8800945 - Typ 141)				
+v_83	v_83	varchar (mit Typencheck: E-Mail-Adresse)	Mail	
+				
+				
+Surveyvariablen				
+Variablenname	Code	Bezeichnung		
+language	-	Sprache		
+	1	Deutsch		
+status	-	Dispositionscode		
+	10	Consent gesehen		
+	11	Noch nicht eingeladen		
+	12	Eingeladen		
+	16	Reserviert 1		
+	17	Reserviert 2		
+	13	Inaktiv		
+	14	E-Mail unzustellbar		
+	15	Nicht erreichbar		
+	18	Benutzerdefiniert unerreichbar 1		
+	19	Custom unavailable 2		
+	20	Noch nicht begonnen		
+	21	Antwortet gerade		
+	22	Unterbrochen		
+	23	Wiederaufgenommen		
+	31	Beendet		
+	32	Beendet nach Unterbrechung		
+	33	Benutzerdefiniert beendet 1		
+	34	Benutzerdefiniert beendet 2		
+	35	Abgewiesen bei Login (Quote voll)		
+	36	Abgewiesen (Quote voll)		
+	37	Ausgescreent		
+	38	Benutzerdefiniert ausgescreent 1		
+	39	Benutzerdefiniert ausgescreent 2		
+	40	Benutzerdefiniert ausgescreent 3		
+	41	Quote geschlossen		
+	42	Consent abgelehnt		
+	43	Personenbezogene Daten gelöscht 		
+date_of_first_access	-	Datum des ersten Zugriffs		
+date_of_last_access	-	Datum des letzten Zugriffs		
+date_of_first_mail	-	Datum der ersten Mail		
+user_agent	-	Browser-Identifikation		
+http_referer	-	http_referer		
+device_type	-	Desktop / Mobil		
+	0	desktop		
+	1	mobile		
+participant_browser	-	Browser-Name		
+	-99	Unknown		
+	1	Avant Browser		
+	2	ABrowse		
+	3	ANTGalio		
+	4	Amaya		
+	5	Android Browser		
+	6	Arora		
+	7	Amiga Voyager		
+	8	Amiga Aweb		
+	9	BlackBerry Browser		
+	10	Baidu Browser		
+	11	Baidu Spark		
+	12	Beonex		
+	13	Bunjalloo		
+	14	BrowseX		
+	15	Camino		
+	16	Comodo Dragon		
+	17	Charon		
+	18	Chrome Frame		
+	19	Chrome		
+	20	Chrome Mobile iOS		
+	21	Conkeror		
+	22	Chrome Mobile		
+	23	CoolNovo		
+	24	CometBird		
+	25	ChromePlus		
+	26	Chromium		
+	27	Cheshire		
+	28	Dolphin		
+	29	Dillo		
+	30	Elinks		
+	31	Epiphany		
+	32	Espial TV Browser		
+	33	Firebird		
+	34	Fluid		
+	35	Fennec		
+	36	Firefox		
+	37	Flock		
+	38	Fireweb Navigator		
+	39	Galeon		
+	40	Google Earth		
+	41	HotJava		
+	42	Iceape		
+	43	IBrowse		
+	44	iCab		
+	45	IceDragon		
+	46	Iceweasel		
+	47	Internet Explorer		
+	48	IE Mobile		
+	49	Iron		
+	50	Jasmine		
+	51	Kindle Browser		
+	52	K-meleon		
+	53	Konqueror		
+	54	Kapiko		
+	55	Kazehakase		
+	56	Liebao		
+	57	Links		
+	58	Lunascape		
+	59	Lynx		
+	60	MicroB		
+	61	NCSA Mosaic		
+	62	Mercury		
+	63	Mobile Safari		
+	64	Midori		
+	65	Mobile Silk		
+	66	Maxthon		
+	67	Nokia Browser		
+	68	Nokia OSS Browser		
+	69	Nokia Ovi Browser		
+	70	NetFront		
+	71	NetFront Life		
+	72	NetPositive		
+	73	Netscape		
+	74	Obigo		
+	75	Opera Mini		
+	76	Opera Mobile		
+	77	Opera		
+	78	Opera Next		
+	79	Oregano		
+	80	Openwave Mobile Browser		
+	81	OmniWeb		
+	82	Palm Blazer		
+	83	Pale Moon		
+	84	Palm Pre		
+	85	Puffin		
+	86	Palm WebPro		
+	87	Phoenix		
+	88	Polaris		
+	89	Rekonq		
+	90	RockMelt		
+	91	Sailfish Browser		
+	92	SEMC-Browser		
+	93	Sogou Explorer		
+	94	Safari		
+	95	Shiira		
+	96	Sleipnir		
+	97	SeaMonkey		
+	98	Snowshoe		
+	99	Sunrise		
+	100	Swiftfox		
+	101	Tizen Browser		
+	102	UC Browser		
+	103	WebPositive		
+	104	wOSBrowser		
+	105	Yandex Browser		
+	106	Xiino		
+	107	360 Phone Browser		
+	108	360 Browser		
+	109	ANT Fresco		
+	110	Amigo		
+	111	Atomic Web Browser		
+	112	Brave		
+	113	Coc Coc		
+	114	Deepnet Explorer		
+	115	Element Browser		
+	116	Fireweb		
+	117	Jig Browser		
+	118	Kylo		
+	119	LG Browser		
+	120	LuaKit		
+	121	MIUI Browser		
+	122	Odyssey Web Browser		
+	123	Off By One		
+	124	ONE Browser		
+	125	Otter Browser		
+	126	Palmscape		
+	127	Microsoft Edge		
+	128	QQ Browser		
+	129	Samsung Browser		
+	130	Skyfire		
+	131	Seraphic Sraf		
+	132	SuperBird		
+	133	TweakStyle		
+	134	Vivaldi		
+	135	Vision Mobile Browser		
+	136	WeTab Browser		
+	137	B-Line		
+	138	BriskBard		
+	139	dbrowser		
+	140	Dorado		
+	141	Isivioo		
+	142	Streamy		
+participant_browser_version	-	Browser-Version		
+participant_os	-	Betriebssystem		
+	-99	Unknown		
+	1	AIX		
+	2	Android		
+	3	AmigaOS		
+	4	Apple TV		
+	5	Arch Linux		
+	6	BackTrack		
+	7	Bada		
+	8	BeOS		
+	9	BlackBerry OS		
+	10	BlackBerry Tablet OS		
+	11	Brew		
+	12	CentOS		
+	13	Chrome OS		
+	14	Debian		
+	15	DragonFly		
+	16	Fedora		
+	17	Firefox OS		
+	18	FreeBSD		
+	19	Gentoo		
+	20	Google TV		
+	21	HP-UX		
+	22	Haiku OS		
+	23	IRIX		
+	24	Inferno		
+	25	Knoppix		
+	26	Kubuntu		
+	27	GNU/Linux		
+	28	Lubuntu		
+	29	VectorLinux		
+	30	Mac		
+	31	Mandriva		
+	32	MeeGo		
+	33	Mint		
+	34	NetBSD		
+	35	Nintendo		
+	36	Nintendo Mobile		
+	37	OS/2		
+	38	OSF1		
+	39	OpenBSD		
+	40	PlayStation Portable		
+	41	PlayStation		
+	42	Red Hat		
+	43	RISC OS		
+	44	Sabayon		
+	45	SUSE		
+	46	Sailfish OS		
+	47	Slackware		
+	48	Solaris		
+	49	Syllable		
+	50	Symbian		
+	51	Symbian OS		
+	52	Symbian OS Series 40		
+	53	Symbian OS Series 60		
+	54	Symbian^3		
+	55	Tizen		
+	56	Ubuntu		
+	57	WebTV		
+	58	Windows		
+	59	Windows 10		
+	60	Windows 2000		
+	61	Windows 3.1		
+	62	Windows 7		
+	63	Windows 8		
+	64	Windows 8.1		
+	65	Windows 95		
+	66	Windows 98		
+	67	Windows CE		
+	68	Windows ME		
+	69	Windows Mobile		
+	70	Windows NT		
+	71	Windows Phone		
+	72	Windows RT		
+	73	Windows RT 8.1		
+	74	Windows Server 2003		
+	75	Windows Vista		
+	76	Windows XP		
+	77	Xbox		
+	78	Xubuntu		
+	79	YunOs		
+	80	iOS		
+	81	palmOS		
+	82	webOS		
+	83	CyanogenMod		
+	84	Maemo		
+	85	MocorDroid		
+	86	MildWild		
+	87	MorphOS		
+	88	MTK / Nucleus		
+	89	Remix OS		
+	90	RazoDroiD		
+	91	ThreadX		
+participant_device	-	Geräte-Typ		
+	-99	Unknown		
+	0	desktop		
+	1	smartphone		
+	2	tablet		
+	3	feature phone		
+	4	console		
+	5	tv		
+	6	car browser		
+	7	smart display		
+	8	camera		
+	9	portable media player		
+	10	phablet		
+participant_brand	-	Geräte-Marke		
+	-99	Unknown		
+	1	Acer		
+	2	Airness		
+	3	Alcatel		
+	4	Arnova		
+	5	Amoi		
+	6	Apple		
+	7	Archos		
+	8	Asus		
+	9	Avvio		
+	10	Audiovox		
+	11	BBK		
+	12	Becker		
+	13	Bird		
+	14	Beetel		
+	15	Bmobile		
+	16	Barnes & Noble		
+	17	BangOlufsen		
+	18	BenQ		
+	19	BenQ-Siemens		
+	20	Blu		
+	21	bq		
+	22	Cat		
+	23	Celkon		
+	24	ConCorde		
+	25	Cherry Mobile		
+	26	Cricket		
+	27	Compal		
+	28	CnM		
+	29	Crius Mea		
+	30	CreNova		
+	31	Capitel		
+	32	Compaq		
+	33	Coolpad		
+	34	Cube		
+	35	Coby Kyros		
+	36	Danew		
+	37	Denver		
+	38	Dbtel		
+	39	DoCoMo		
+	40	Dicam		
+	41	Dell		
+	42	DMM		
+	43	Doogee		
+	44	Dopod		
+	45	E-Boda		
+	46	Ericsson		
+	47	Ezio		
+	48	Easypix		
+	49	Ericy		
+	50	eTouch		
+	51	Evertek		
+	52	Ezze		
+	53	Fly		
+	54	Fujitsu		
+	55	Gateway		
+	56	Gemini		
+	57	Gionee		
+	58	Gigabyte		
+	59	Gigaset		
+	60	Google		
+	61	Gradiente		
+	62	Grundig		
+	63	Haier		
+	64	HP		
+	65	HTC		
+	66	Huawei		
+	67	Humax		
+	68	Hyrican		
+	69	Ikea		
+	70	iBall		
+	71	iBerry		
+	72	iKoMo		
+	73	i-mate		
+	74	Infinix		
+	75	Innostream		
+	76	Inkti		
+	77	Intex		
+	78	i-mobile		
+	79	INQ		
+	80	Intek		
+	81	Inverto		
+	82	Jiayu		
+	83	Jolla		
+	84	Karbonn		
+	85	KDDI		
+	86	Kindle		
+	87	Konka		
+	88	K-Touch		
+	89	KT-Tech		
+	90	Kyocera		
+	91	Kazam		
+	92	Lava		
+	93	Lanix		
+	94	LCT		
+	95	Lenovo		
+	96	Lenco		
+	97	LG		
+	98	Loewe		
+	99	Logicom		
+	100	Lexibook		
+	101	Manta Multimedia		
+	102	Mobistel		
+	103	Medion		
+	104	Metz		
+	105	MEU		
+	106	MicroMax		
+	107	MediaTek		
+	108	Mio		
+	109	Mpman		
+	110	Motorola		
+	111	Microsoft		
+	112	MSI		
+	113	Memup		
+	114	Mitsubishi		
+	115	MyPhone		
+	116	NEC		
+	117	NGM		
+	118	Nintendo		
+	119	Nokia		
+	120	Nikon		
+	121	Newgen		
+	122	Nexian		
+	123	Onda		
+	124	OPPO		
+	125	Orange		
+	126	O2		
+	127	OUYA		
+	128	Opsson		
+	129	Panasonic		
+	130	PEAQ		
+	131	Philips		
+	132	Polaroid		
+	133	Palm		
+	134	phoneOne		
+	135	Pantech		
+	136	PolyPad		
+	137	Prestigio		
+	138	Qilive		
+	139	Qtek		
+	140	Quechua		
+	141	Oysters		
+	142	Ramos		
+	143	RIM		
+	144	Rover		
+	145	Samsung		
+	146	Sega		
+	147	Sony Ericsson		
+	148	Softbank		
+	149	SFR		
+	150	Sagem		
+	151	Sharp		
+	152	Siemens		
+	153	Sendo		
+	154	Sony		
+	155	Spice		
+	156	SuperSonic		
+	157	Selevision		
+	158	Sanyo		
+	159	Symphony		
+	160	Smart		
+	161	Storex		
+	162	Sumvision		
+	163	Tesla		
+	164	TCL		
+	165	Telit		
+	166	TiPhone		
+	167	Tecno Mobile		
+	168	TIANYU		
+	169	Telefunken		
+	170	T-Mobile		
+	171	Thomson		
+	172	Tolino		
+	173	Toplux		
+	174	Toshiba		
+	175	TechnoTrend		
+	176	Tunisie Telecom		
+	177	TVC		
+	178	TechniSat		
+	179	teXet		
+	180	UTStarcom		
+	181	Videocon		
+	182	Vertu		
+	183	Vitelcom		
+	184	VK Mobile		
+	185	ViewSonic		
+	186	Vestel		
+	187	Voxtel		
+	188	Videoweb		
+	189	Web TV		
+	190	WellcoM		
+	191	Wiko		
+	192	Wolder		
+	193	Wonu		
+	194	Woxter		
+	195	Xiaomi		
+	196	Yuandao		
+	197	Zonda		
+	198	Zopo		
+	199	ZTE		
+	200	3Q		
+	201	Ainol		
+	202	Allview		
+	203	Altech UEC		
+	204	Amazon		
+	205	ARRIS		
+	206	Airties		
+	207	Axxion		
+	208	Boway		
+	209	Brondi		
+	210	Bush		
+	211	CUBOT		
+	212	Carrefour		
+	213	Captiva		
+	214	Casio		
+	215	Changhong		
+	216	Crosscall		
+	217	Cowon		
+	218	Datang		
+	219	Desay		
+	220	DNS		
+	221	Doov		
+	222	Dune HD		
+	223	EBEST		
+	224	ECS		
+	225	Elephone		
+	226	Energy Sistem		
+	227	Eton		
+	228	Fairphone		
+	229	Foxconn		
+	230	Garmin-Asus		
+	231	GOCLEVER		
+	232	Goly		
+	233	Hasee		
+	234	Hisense		
+	235	Hi-Level		
+	236	Hosin		
+	237	Hyundai		
+	238	i-Joy		
+	239	iOcean		
+	240	iNew		
+	241	iTel		
+	242	Kingsun		
+	243	Komu		
+	244	Koobee		
+	245	KOPO		
+	246	Koridy		
+	247	Kumai		
+	248	Le Pan		
+	249	Lingwin		
+	250	Majestic		
+	251	Mecer		
+	252	MEEG		
+	253	Meizu		
+	254	Mediacom		
+	255	Mofut		
+	256	MLLED		
+	257	M.T.T.		
+	258	Netgear		
+	259	Noain		
+	260	Nomi		
+	261	NextBook		
+	262	OnePlus		
+	263	Ouki		
+	264	Pioneer		
+	265	Ployer		
+	266	Point of View		
+	267	Pomp		
+	268	Positivo		
+	269	ProScan		
+	270	PULID		
+	271	QMobile		
+	272	Overmax		
+	273	RCA Tablets		
+	274	Readboy		
+	275	Rikomagic		
+	276	Roku		
+	277	Sencor		
+	278	Skyworth		
+	279	Smartfren		
+	280	Star		
+	281	Stonex		
+	282	SunVan		
+	283	ThL		
+	284	Tesco		
+	285	Telenor		
+	286	Trevi		
+	287	Turbo-X		
+	288	Unowhy		
+	289	Uniscope		
+	290	Vastking		
+	291	Vivo		
+	292	Voto		
+	293	Vodafone		
+	294	Vizio		
+	295	Walton		
+	296	Wexler		
+	297	Xolo		
+	298	Yarvik		
+	299	Yusun		
+	300	Ytone		
+	301	Zeemi		
+	302	Bravis		
+	303	Explay		
+	304	Kiano		
+	305	Modecom		
+	306	Pentagram		
+	307	TB Touch		
+participant_model	-	Geräte-Model		
+	-99	Unknown		
+	1	StarTrail		
+	2	StarTrail 2		
+	3	StarTrail 3		
+	4	StarTrail 4		
+	5	StarShine		
+	6	StarShine 2		
+	7	Staraddict		
+	8	Staraddict 2		
+	9	Staraddict 2 Plus		
+	10	Staraddict 3		
+	11	StarText		
+	12	StarText 2		
+	13	StarNaute		
+	14	StarNaute 2		
+	15	$1		
+	16	Droid Incredible		
+	17	ThunderBolt		
+	18	Droid Incredible 3		
+	19	Excalibur		
+	20	Vox		
+	21	HD2		
+	22	$1 (Sprint)		
+	23	N$1		
+	24	N800		
+	25	Touchpad $1		
+	26	BlackBerry $1		
+	27	BlackBerry Playbook		
+	28	BlackBerry		
+	29	$1 $2		
+	30	Treo $1		
+	31	Tungsten		
+	32	Slate $1		
+	33	TouchPad		
+	34	iPAQ $1		
+	35	Veer		
+	36	Apple TV		
+	37	iPad		
+	38	iPod Touch		
+	39	iPhone		
+	40	iPhone 3G		
+	41	iPhone 3GS		
+	42	iPhone 4		
+	43	iPhone 4S		
+	44	iPhone 5		
+	45	iPhone 5c		
+	46	iPhone 5s		
+	47	iPhone 6 Plus		
+	48	iPhone 6		
+	49	iPhone $1		
+	50	Iconia A		
+	51	Iconia A1		
+	52	Iconia A3		
+	53	Iconia B1		
+	54	Acer Liquid E1		
+	55	Iconia Tab A$1		
+	56	One Touch $1		
+	57	One Touch$1		
+	58	5		
+	59	Eee Pad MeMO 171		
+	60	MeMO Pad FHD 10		
+	61	MeMO Pad FHD 10 LTE		
+	62	MeMO Pad Smart 10		
+	63	Fonepad		
+	64	MeMO Pad HD 7		
+	65	MeMO Pad 8		
+	66	MeMO Pad HD 7 Dual SIM		
+	67	Fonepad 7		
+	68	Fonepad 7 Dual SIM		
+	69	MeMO Pad 10		
+	70	Fonepad Note 6		
+	71	Transformer Pad TF701T		
+	72	Eee Pad Slider SL101		
+	73	ZenFone 4		
+	74	Transformer $1		
+	75	CDM-$1		
+	76	PAD		
+	77	Nook $1		
+	78	Vivo $1		
+	79	Nova		
+	80	Tab $1		
+	81	ReadMan $1		
+	82	DSlide $1		
+	83	txt		
+	84	txt pro		
+	85	Xperia X10 mini		
+	86	Xperia X8		
+	87	Xperia arc		
+	88	Xperia arc S		
+	89	Xperia X10		
+	90	K$1		
+	91	R380		
+	92	eZee'Tab$1		
+	93	EZ$1		
+	94	Gigaset QV$1		
+	95	Glass		
+	96	Galaxy Nexus		
+	97	GoogleTV		
+	98	G$1		
+	99	Ideos$1		
+	100	Vodafone $1		
+	101	INNO$1		
+	102	Rise		
+	103	Hydro		
+	104	Hydro EDGE		
+	105	Hydro XTRM		
+	106	Hydro ELITE		
+	107	KZ $1		
+	108	Iris $1		
+	109	IdeaTab $1		
+	110	Tablet Ultra 3 XL		
+	111	TabTab		
+	112	Tablet Master 3		
+	113	Tablet Kids		
+	114	Tablet Junior		
+	115	Tablet Junior Power Touch		
+	116	Tablet Junior 2		
+	117	Tablet One		
+	118	Tablet Master		
+	119	Tablet Master 2		
+	120	Tablet Ultra		
+	121	Tablet Ultra 2		
+	122	Power Tablet		
+	123	Tablet Advanced		
+	124	Tablet Advanced 2		
+	125	Tablet XL		
+	126	Barbie Tablet		
+	127	Tablet Disney Cars HD		
+	128	Furby Tablet		
+	129	Tablet Disney Princesse HD		
+	130	LapTab		
+	131	LapTab 2		
+	132	NetCast		
+	133	Kin $1		
+	134	Viva 5660s		
+	135	Tango 830		
+	136	Expose $1		
+	137	Tuxedo 990		
+	138	Lifetab $1		
+	139	SlidePad $1		
+	140	V360		
+	141	Spice		
+	142	Motosmart ME		
+	143	Fire		
+	144	Defy Mini		
+	145	Motosmart		
+	146	Quench		
+	147	Fire XT		
+	148	Defy		
+	149	Defy XT		
+	150	Admiral		
+	151	Droid Pro		
+	152	Motoluxe		
+	153	Primus		
+	154	IronRock		
+	155	Atrix		
+	156	Motoluxe Dual-SIM		
+	157	Atrix TV		
+	158	Milestone		
+	159	Glam		
+	160	Milestone 3		
+	161	Electrify 2		
+	162	Moto XT882		
+	163	Droid RAZR V		
+	164	Droid RAZR i		
+	165	Droid 4		
+	166	Photon Q		
+	167	Electrify M		
+	168	Droid RAZR M		
+	169	Droid RAZR		
+	170	Droid RAZR D1		
+	171	Droid RAZR D3		
+	172	Droid RAZR HD		
+	173	Moto E		
+	174	Droid Mini		
+	175	Moto G		
+	176	Moto X		
+	177	Droid Ultra		
+	178	RAZR $1		
+	179	RIZR $1		
+	180	DROID $1		
+	181	MyPad $1		
+	182	MID		
+	183	SPV $1		
+	184	Viera Cast		
+	185	Fisio $1		
+	186	GALAXY Tab		
+	187	"GALAXY Tab 2 7"""		
+	188	"GALAXY Tab 2 7"" WiFi"		
+	189	"GALAXY Tab 2 10.1"""		
+	190	"GALAXY Tab 2 10.1"" WiFi"		
+	191	"GALAXY Tab 3 10.1"""		
+	192	"GALAXY Tab 3 10.1"" WiFi"		
+	193	"GALAXY Tab 3 10.1"" LTE"		
+	194	"GALAXY Tab 7"" Plus"		
+	195	"GALAXY Tab 7"" Plus N"		
+	196	"GALAXY Tab 7.7"""		
+	197	GALAXY Tab 10.1v		
+	198	"GALAXY Tab 10.1"" P7500"		
+	199	GALAXY Note 3 Duos		
+	200	GALAXY Note 3		
+	201	"GALAXY Note 10.1"" 2014 Edition WiFi"		
+	202	"GALAXY Note 10.1"" 2014 Edition"		
+	203	"GALAXY Note 10.1"" 2014 Edition LTE"		
+	204	"GALAXY NotePRO 12.2"" WiFi"		
+	205	"GALAXY NotePRO 12.2"" LTE"		
+	206	"GALAXY Tab 3 7.0"" Lite WiFi"		
+	207	"GALAXY Tab 3 7.0"" Lite"		
+	208	"GALAXY Tab 3 7.0"" Kids"		
+	209	"GALAXY Tab 3 7.0"" WiFi"		
+	210	"GALAXY Tab 3 7.0"""		
+	211	"GALAXY Tab 4 7.0"" WiFi"		
+	212	"GALAXY Tab 3 8.0"" WiFi"		
+	213	"GALAXY Tab 3 8.0"""		
+	214	"GALAXY Tab 3 8.0"" LTE"		
+	215	"GALAXY TabPRO 10.1"" WiFi"		
+	216	"GALAXY TabPRO 8.4"" WiFi"		
+	217	"GALAXY TabPRO 8.4"" LTE"		
+	218	"GALAXY TabPRO 10.1"" LTE"		
+	219	"GALAXY Tab 4 10.1"" WiFi"		
+	220	"GALAXY TabPRO 12.2"" WiFi"		
+	221	GALAXY S4 zoom		
+	222	GALAXY K zoom		
+	223	GALAXY CORE Plus		
+	224	GALAXY CORE LTE		
+	225	GALAXY EXPRESS II		
+	226	GALAXY S5 Dual-SIM		
+	227	GALAXY S5		
+	228	GALAXY S II		
+	229	GALAXY S4		
+	230	SCH-$1		
+	231	Smart TV		
+	232	GALAXY $1		
+	233	Star Q		
+	234	Katana Eclipse X		
+	235	Incognito		
+	236	Innuendo		
+	237	Quechua Phone 5		
+	238	Aquos Phone Zeta		
+	239	Aquos Phone SH-06D		
+	240	Sharp Aquos Pad		
+	241	Aquos Net Plus		
+	242	Xperia E		
+	243	Xperia E Dual		
+	244	Xperia M		
+	245	Xperia M Dual		
+	246	Xperia L		
+	247	Xperia C		
+	248	Xperia SP		
+	249	Xperia ZR		
+	250	Xperia ZL		
+	251	Xperia Z		
+	252	Xperia Z Ultra		
+	253	Xperia Z1		
+	254	Xperia E1		
+	255	Xperia E1 Dual		
+	256	Xperia E3		
+	257	Xperia E3 Dual		
+	258	Xperia M2 Dual		
+	259	Xperia M2		
+	260	Xperia T2 Ultra		
+	261	Xperia T2 Ultra Dual		
+	262	Xperia Z1 Compact		
+	263	Xperia Z2		
+	264	Xperia Tablet Z		
+	265	Xperia Tablet Z2		
+	266	Xperia Tablet Z3 Compact		
+	267	Xperia Tablet S		
+	268	Xperia $1		
+	269	Kindle Fire HD		
+	270	"Kindle Fire HD 8.9"" WiFi"		
+	271	"Kindle Fire HD 8.9"" 4G"		
+	272	"Kindle Fire HD 7"" WiFi"		
+	273	"Kindle Fire HDX 7"" WiFi"		
+	274	"Kindle Fire HDX 7"" 4G"		
+	275	"Kindle Fire HDX 8.9"" WiFi"		
+	276	"Kindle Fire HDX 8.9"" 4G"		
+	277	Kindle Fire		
+	278	Kindle		
+	279	Tolino Tab $1		
+	280	Nuclear SX-SP5		
+	281	ViewPad $1		
+	282	Cink$1		
+	283	Cink $1		
+	284	Iggy$1		
+	285	Iggy $1		
+	286	Stairway		
+	287	Highway		
+	288	Rainbow		
+	289	Darkside		
+	290	Darkmoon		
+	291	Darkfull		
+	292	Darknight		
+	293	Sublim		
+	294	Ozzy		
+	295	Barry		
+	296	miSmart $1		
+	297	miTab $1		
+	298	N101		
+	299	Flylife $1		
+	300	MTS Blaze 4		
+	301	Z331		
+	302	StarXtrem		
+	303	StarTab		
+	304	iPad 2		
+	305	iPad Mini		
+	306	iPad 3rd generation		
+	307	iPad 4th Gen		
+	308	iPad Air		
+	309	iPad Mini Retina		
+	310	Liquid E1		
+	311	Liquid S1		
+	312	Liquid S2		
+	313	MeMO Pad		
+	314	Transformer Pad TF300T		
+	315	iNote $1		
+	316	Trooper X$1.$2		
+	317	Coast		
+	318	Find 7a		
+	319	YPY S450		
+	320	Imagio		
+	321	Evo 3G		
+	322	Evo 4G		
+	323	One X		
+	324	One X+		
+	325	P715a		
+	326	Flyer		
+	327	Flyer $1		
+	328	One max		
+	329	N900		
+	330	Slate 6 VoiceTab		
+	331	Compaq $1		
+	332	iPhone 5C		
+	333	iPhone 5S		
+	334	iPhone 6s		
+	335	iPhone 6s Plus		
+	336	iPhone SE		
+	337	iPad 3		
+	338	iPad 4		
+	339	iPad Mini 2		
+	340	iPad Mini 3		
+	341	iPad Air 2		
+	342	iPad Pro 9.7		
+	343	iPad Pro 12.9		
+	344	A501 Bright		
+	345	DA220HQL		
+	346	DA241HL		
+	347	Iconia One 10		
+	348	Liquid E700		
+	349	Liquid E2		
+	350	Liquid Z$1		
+	351	Liquid Z4		
+	352	One Touch Pop 3		
+	353	One Touch Pop 3 Dual SIM		
+	354	One Touch Pop 4		
+	355	One Touch Idol 2 mini		
+	356	One Touch Idol 2S		
+	357	One Touch Idol 3		
+	358	One Touch Pixi 7		
+	359	One Touch Pixi 8		
+	360	One Touch POP 8		
+	361	One Touch POP 7		
+	362	A862W		
+	363	Numy $1		
+	364	Novo $1 $2		
+	365	ATAB-$1		
+	366	M901		
+	367	7c G2		
+	368	7 G2		
+	369	7 G3		
+	370	7b G3		
+	371	7c G3		
+	372	Childpad		
+	373	7d G3		
+	374	7f G3		
+	375	7h G3		
+	376	8		
+	377	8 G2		
+	378	8 G3		
+	379	8b G3		
+	380	8c G3		
+	381	9i G2		
+	382	9 G2		
+	383	9 G3		
+	384	10 G2		
+	385	10		
+	386	10b G2		
+	387	10b G3		
+	388	10c G3		
+	389	10d G3		
+	390	90 G3		
+	391	90 G4		
+	392	97 G4		
+	393	101 G4		
+	394	Garminfone $1		
+	395	MeMO Pad 7		
+	396	MeMO Pad 10 ME103K		
+	397	MeMO Pad 8.9		
+	398	Transformer Pad TF103C		
+	399	Transformer Pad TF103CG		
+	400	Transformer Pad TF303K		
+	401	Fonepad 8		
+	402	ZenFone C		
+	403	ZenFone 2		
+	404	ZenFone 2 Laser		
+	405	ZenFone 5		
+	406	ZenFone 5 LTE		
+	407	ZenFone 5 Lite		
+	408	ZenFone 6		
+	409	ZenFone Max		
+	410	ZenFone Go Plus		
+	411	ZenFone Go		
+	412	ZenFone Selfie		
+	413	CENTURION $1		
+	414	GLADIATOR $1		
+	415	GLORY $1		
+	416	LUXURY $1		
+	417	SENSUELLE $1		
+	418	VICTORY $1		
+	419	SURFING TAB $1		
+	420	Valencia		
+	421	$1Tablet		
+	422	Pad $1		
+	423	G'zOne Ravine		
+	424	G'zOne Commando		
+	425	G'zOne Commando 4G LTE		
+	426	B15Q		
+	427	Touch Tablet Neo2		
+	428	CT$1		
+	429	8190Q		
+	430	8295		
+	431	Talk 8		
+	432	Talk 79		
+	433	Talk 9X		
+	434	XCD35		
+	435	S4505M		
+	436	AirTab $1		
+	437	TA10CA3		
+	438	TR10CS1		
+	439	TM105A		
+	440	TM105		
+	441	MK$1		
+	442	Xperia X10 mini pro		
+	443	Xperia neo V		
+	444	Xperia neo		
+	445	Xperia Sola		
+	446	Xperia pro		
+	447	Xperia mini		
+	448	Xperia active		
+	449	Xperia ray		
+	450	Xperia mini pro		
+	451	Aspen		
+	452	Xperia PLAY		
+	453	Live with Walkman		
+	454	Jalou		
+	455	Naite		
+	456	Cedar		
+	457	Elm		
+	458	Hazel		
+	459	Aino		
+	460	Yari		
+	461	Satio		
+	462	Vivaz		
+	463	Vivaz pro		
+	464	Zylo		
+	465	Spiro		
+	466	Yendo		
+	467	W960		
+	468	Mix Walkman		
+	469	Xperia P		
+	470	Xperia V		
+	471	Xperia SL		
+	472	Xperia S		
+	473	Xperia arco		
+	474	Xperia arco HD		
+	475	Xperia arco S		
+	476	Xperia ion		
+	477	Xperia TX		
+	478	Xperia T LTE		
+	479	Xperia T		
+	480	Xperia tipo dual		
+	481	Xperia tipo		
+	482	Xperia miro		
+	483	Xperia U		
+	484	Xperia J		
+	485	Xperia go		
+	486	Xperia E4		
+	487	Xperia E4G		
+	488	Xperia M2 Aqua		
+	489	Xperia M4 Aqua		
+	490	Xperia M5		
+	491	Xperia C3 Dual		
+	492	Xperia C3		
+	493	Xperia T3		
+	494	Xperia Z3 Compact		
+	495	Xperia Z3		
+	496	Xperia Z3 Dual		
+	497	Xperia Z3+		
+	498	Xperia Z5 Compact		
+	499	Xperia Z5		
+	500	Xperia Z5 Dual		
+	501	Xperia Z5 Premium		
+	502	Xperia XA		
+	503	Xperia E5		
+	504	Xperia A		
+	505	Xperia GX		
+	506	Xperia SX		
+	507	Xperia X		
+	508	Blu-ray Player		
+	509	LinkBox		
+	510	Everpad $1		
+	511	ActiveD 7.4 3G		
+	512	ActiveD 8.2 3G		
+	513	CinemaTV 3G		
+	514	Informer $1		
+	515	Surfer $1		
+	516	sQuad $1		
+	517	Onliner $1		
+	518	Atlant		
+	519	InFocus M$1		
+	520	Arrows NX F-01F		
+	521	Arrows X F-02E		
+	522	Arrows X LTE F-05D		
+	523	Arrows NX F-06E		
+	524	F-08D Disney Mobile		
+	525	Raku-Raku Smartphone Premium F-09E		
+	526	F-12C		
+	527	Arrows Tab F-02F		
+	528	Arrows Tab F-05E		
+	529	GN810		
+	530	GN$1		
+	531	V188S		
+	532	V188		
+	533	Dream D1		
+	534	VAP430		
+	535	VTAB1008		
+	536	QUANTUM $1		
+	537	INSIGNIA 785 PRO		
+	538	QUANTUM 700N		
+	539	TAB $1		
+	540	Chromecast		
+	541	W$1		
+	542	Sero 7		
+	543	Sero 7 Pro		
+	544	Sero 8		
+	545	HLV-T$1		
+	546	U$1		
+	547	Ideos X2		
+	548	Ideos X3		
+	549	Fusion 2		
+	550	Ideos X5		
+	551	Ascend G300		
+	552	Honor		
+	553	Ascend P1		
+	554	Ascend D1		
+	555	Honor 2		
+	556	Honor 4X		
+	557	Honor Play 4C		
+	558	G621		
+	559	Honor 3C		
+	560	Honor 4A		
+	561	Honor 5X		
+	562	Honor 4C		
+	563	Honor 6		
+	564	Honor Y6		
+	565	Honor 7		
+	566	Honor 7 Lite		
+	567	Honor Tablet Note		
+	568	MediaPad T1 10		
+	569	Ascend Mate $1		
+	570	Elektra M		
+	571	Elektra L		
+	572	Elektra XL		
+	573	Elektra XXL		
+	574	Neon $1		
+	575	Sygnus		
+	576	Deox		
+	577	i-Call $1		
+	578	V3C		
+	579	V3-E		
+	580	V3 Plus		
+	581	V7A		
+	582	i-Style $1		
+	583	IQ $1		
+	584	Tornado 348		
+	585	Slim Tab $1		
+	586	Cavion Base $1		
+	587	CORE 10.1 DUAL 3G		
+	588	Elegance 5.0		
+	589	$2 $3		
+	590	Milano		
+	591	Le Pan Mini		
+	592	TC970 $1		
+	593	Le Pan $1		
+	594	G780		
+	595	IdeaTab A7-40		
+	596	IdeaTab A7-50		
+	597	IdeaTab A8-50		
+	598	IdeaTab A10-70		
+	599	Tab 2 A10-30		
+	600	Yoga Tab 3		
+	601	TAB3 7 Essential		
+	602	Yoga Tablet 10		
+	603	Yoga Tablet 8		
+	604	Yoga 3 Pro		
+	605	Yoga Tab 3 8		
+	606	ThinkPad Tablet $1		
+	607	ThinkPad Tablet$1		
+	608	IdeaPad $1		
+	609	TAB 2 A7-30		
+	610	TAB 2 A$1		
+	611	Yoga Tablet$1		
+	612	Optimus L7II		
+	613	Optimus LTE L-01D		
+	614	PRADA phone L-02D		
+	615	Optimus Bright L-07C		
+	616	G Pad 8.0		
+	617	G Pad 8.3		
+	618	G Pad 10.1		
+	619	G Pad II 10.1		
+	620	WebOS TV		
+	621	Tab$1		
+	622	Crono $1		
+	623	SmartPad 750 3G		
+	624	SmartPad 970 S2 3G		
+	625	SmartPad 970 S2		
+	626	SmartPad 8.0 Mobile		
+	627	SmartPad 9.7 Mobile		
+	628	SmartPad 7.0 Go		
+	629	SmartPad 8.0 S2		
+	630	SmartPad 8.0 S2 3G		
+	631	SmartPad $1 S2		
+	632	SmartPad 875 S2 3G		
+	633	SmartPad 10.1 S2		
+	634	SmartPad 10.1 S2 3G		
+	635	SmartPad 8.0 S4		
+	636	SmartPad 8.0 S4 3G		
+	637	SmartPad 9.7 S4 3G		
+	638	SmartPad 10.1 S4		
+	639	SmartPad 10.1 HD S4 3G		
+	640	SmartPad 10.1 S4 3G		
+	641	SmartPad 8.0 HD Pro 3G		
+	642	SmartPad 10.1 HD Pro		
+	643	SmartPad 10.1 HD Pro 3G		
+	644	SmartPad 8.0 HD iPro$1 3G		
+	645	SmartPad 7.0 Mobile		
+	646	SmartPad 7.0 S2 3G		
+	647	SmartPad Mini Mobile		
+	648	PhonePad Duo G550		
+	649	PhonePad Duo G530		
+	650	PhonePad Duo G700		
+	651	PhonePad Duo S531		
+	652	PhonePad Duo S550		
+	653	PhonePad Duo S650		
+	654	PhonePad Duo S551U		
+	655	PhonePad Duo G500		
+	656	PhonePad Duo S500		
+	657	PhonePad Duo X$1U		
+	658	PhonePad Duo G$1		
+	659	PhonePad Duo S$1		
+	660	SmartPad $1		
+	661	M2 Note		
+	662	M$1 Note		
+	663	M2		
+	664	MX2		
+	665	MX3		
+	666	MX4 Pro		
+	667	MX4		
+	668	SlidePad NG$1		
+	669	SlidePad 704$1		
+	670	Xpress Smartlife M785		
+	671	X1010		
+	672	Xpress Smartlife 800P31C		
+	673	Xpress Smartlife 800P32C		
+	674	Xpress Smartlife 101P51C		
+	675	Primo 76		
+	676	Primo 91		
+	677	Enjoy 7 Plus		
+	678	Xino Z$1 X$2		
+	679	FreeTab $1		
+	680	FreeWay Tab $1		
+	681	MyTab $1		
+	682	MyTab 10 II		
+	683	Cube LTE		
+	684	Tablet$1		
+	685	NeoTV Prime		
+	686	Premium 8 HD		
+	687	Premium 9		
+	688	Premium 10 Hi		
+	689	8 HD		
+	690	Premium 7		
+	691	Next $1		
+	692	Find Way S		
+	693	Find 5		
+	694	Find 7		
+	695	R1L		
+	696	R1S		
+	697	Find Guitar		
+	698	R5		
+	699	Find Melody		
+	700	Piano		
+	701	Find Clover		
+	702	Find Muse		
+	703	Find 5 Mini		
+	704	Neo 5		
+	705	Neo 3		
+	706	Neo		
+	707	N3		
+	708	N1 Mini		
+	709	N1T		
+	710	R$1		
+	711	Iusai $1		
+	712	Livebox Play		
+	713	Sego		
+	714	FunTab $1		
+	715	Vertis Yard		
+	716	Vertis $1		
+	717	Qualcore 1010		
+	718	P902i		
+	719	Eon Prix		
+	720	Quadra 7 UltraSlim		
+	721	Monster X5		
+	722	Quadra $1		
+	723	Android TV		
+	724	Blu-ray Player (BDP$1)		
+	725	NetTV Series		
+	726	R1		
+	727	F$1		
+	728	HDMI Smart TV Dongle		
+	729	Mini PC HDMI Dongle		
+	730	Mobii Phone 5045		
+	731	ONYX 506 Navi		
+	732	ONYX 507 Navi		
+	733	ONYX 527S		
+	734	ONYX 547 Navi		
+	735	ProTab 26 XXL IPS		
+	736	ProTab 25XXL		
+	737	Mobii 1015		
+	738	ProTab $1		
+	739	Mobii $1		
+	740	PLT$1		
+	741	RCT$1		
+	742	Digital Video Player		
+	743	Home Sync		
+	744	SMT-E5015		
+	745	"GALAXY Note 8.0"""		
+	746	"GALAXY Note 8.0"" WiFi"		
+	747	"GALAXY Note 8.0"" LTE"		
+	748	"GALAXY Note 10.1"""		
+	749	"GALAXY Note 10.1"" WiFi"		
+	750	"GALAXY Note 10.1"" LTE"		
+	751	"GALAXY NotePRO 12.2"""		
+	752	"GALAXY Tab 8.0"" LTE"		
+	753	"GALAXY Tab 4 10.1"" LTE"		
+	754	"GALAXY Tab S 8.4"" WiFi"		
+	755	"GALAXY Tab S 8.4"" LTE"		
+	756	"GALAXY Tab S 10.5"" WiFi"		
+	757	"GALAXY Tab S 10.5"" LTE"		
+	758	GALAXY Tab S2		
+	759	GALAXY Chat		
+	760	GALAXY Y Pro		
+	761	GALAXY Y Pro Duos		
+	762	GALAXY Pro		
+	763	GALAXY Spica		
+	764	GALAXY Apollo		
+	765	GALAXY 3		
+	766	Omnia II		
+	767	GALAXY W		
+	768	GALAXY Ace 2		
+	769	GALAXY S III mini		
+	770	GALAXY S III mini Value Edition		
+	771	GALAXY Core		
+	772	H1		
+	773	GALAXY Beam		
+	774	GALAXY Win		
+	775	GALAXY Core Advance		
+	776	GALAXY Express		
+	777	GALAXY S		
+	778	GALAXY S Plus		
+	779	GALAXY SL		
+	780	GALAXY S Giorgio Armani		
+	781	GALAXY S Advance		
+	782	GALAXY S II WiMAX		
+	783	GALAXY R		
+	784	GALAXY S II Plus		
+	785	GALAXY S4 mini		
+	786	GALAXY S4 ACTIVE		
+	787	GALAXY S III		
+	788	GALAXY S III LTE		
+	789	GALAXY S4 with LTE+		
+	790	GALAXY STAR		
+	791	GALAXY POCKET Plus		
+	792	GALAXY POCKET Neo		
+	793	GALAXY Y Hello Kitty		
+	794	GALAXY Young		
+	795	GALAXY Young DUOS		
+	796	GALAXY FAME Lite with NFC		
+	797	GALAXY FAME		
+	798	GALAXY ACE 3		
+	799	GALAXY Trend Lite		
+	800	GALAXY ACE Plus		
+	801	GALAXY Trend		
+	802	GALAXY S DUOS		
+	803	GALAXY Trend Plus		
+	804	GALAXY DUOS 2		
+	805	GALAXY Xcover 2		
+	806	Wave		
+	807	Wave II		
+	808	Wave 3		
+	809	Wave Y		
+	810	Wave M		
+	811	Wave 525		
+	812	Wave 533		
+	813	Wave 578		
+	814	Wave 723		
+	815	GALAXY S5 mini		
+	816	GALAXY S5 Neo		
+	817	GALAXY S6		
+	818	GALAXY S7 edge		
+	819	GALAXY Stellar		
+	820	GALAXY Style Duos		
+	821	GALAXY Discover		
+	822	GALAXY Centura		
+	823	Vollo Vi86		
+	824	GALAXY Grand Neo		
+	825	GALAXY Grand Neo Duos		
+	826	GALAXY Grand		
+	827	GALAXY Grand Neo+		
+	828	GALAXY Grand Duos		
+	829	GALAXY Note II		
+	830	GALAXY Note II LTE		
+	831	GALAXY Grand 2		
+	832	GALAXY Note 3 Neo Duos		
+	833	GALAXY Note 3 Neo		
+	834	GALAXY Note 4		
+	835	GALAXY Note 4 Edge		
+	836	GALAXY Note 5		
+	837	GALAXY Note 5 Duos		
+	838	GALAXY Mega 5.8		
+	839	GALAXY Mega 6.3		
+	840	GALAXY Note 7		
+	841	E2152		
+	842	Element 7 V3		
+	843	Element 7 V2 Basic		
+	844	Element 7 V2		
+	845	Element 8 V3		
+	846	Element 8 V2		
+	847	Element 8		
+	848	Element 9.7 V3		
+	849	Element 9.7 V2		
+	850	Element 9.7		
+	851	Element 10.1		
+	852	Element P$1		
+	853	Andromax Tab 7.0		
+	854	Andromax V3s		
+	855	Andromax T		
+	856	Andromax C2		
+	857	Andromax i3		
+	858	Andromax i3s		
+	859	Andromax G2 Hot		
+	860	Andromax G2		
+	861	Andromax I		
+	862	New Andromax I		
+	863	Andromax $1		
+	864	Primo $1		
+	865	QM734-2		
+	866	QM734-8G		
+	867	QM735-8G		
+	868	QM736-8G (HD)		
+	869	3G 8950		
+	870	Tlink$1		
+	871	Every$1		
+	872	MOMO mini S		
+	873	MOMO $1		
+	874	Pro4611		
+	875	Agate		
+	876	ProV350		
+	877	Pro$1		
+	878	MultiPad Ranger 7.0 3G		
+	879	MultiPad Ranger 8.0 3G		
+	880	$1 Tab		
+	881	Ice		
+	882	Note 3		
+	883	Fire TV		
+	884	Fire TV stick		
+	885	Fire HD 6		
+	886	Fire HD 7		
+	887	Fire HDX 8.9		
+	888	Fire HDX 8.9 4G		
+	889	Fire Phone		
+	890	Ignis $1		
+	891	Hudl $1		
+	892	Op3n Dott		
+	893	TAB $1 3G V8		
+	894	TAB 9 3G V8		
+	895	TAB 9 3G		
+	896	TAB 10 3G V16		
+	897	MINITAB 3G V		
+	898	Phablet 4 C		
+	899	Phablet 4 S		
+	900	Phablet 4.5Q		
+	901	Phablet 5 S		
+	902	Phablet 5.3 Q		
+	903	Phablet 5.5 Q REVERSE		
+	904	Phablet 6 S		
+	905	QOOQ		
+	906	M910A		
+	907	V500		
+	908	ViewPhone $1		
+	909	VT75C		
+	910	Smart Mini		
+	911	Smart 3		
+	912	Smart 4 Mini		
+	913	Smart 4 Turbo		
+	914	Smart 4 Power		
+	915	Smart Chat		
+	916	Smart Tab 3G		
+	917	Smart Tab 4G		
+	918	Smart Tab 7		
+	919	Smart Tab 10		
+	920	Smart Tab II 7		
+	921	Smart Tab II 10		
+	922	Smart Tab III 7		
+	923	Smart Tab III 10		
+	924	Primo Walpad $1		
+	925	ZEN 4.5		
+	926	ZEN 4.7		
+	927	ZEN 5		
+	928	TAB 10Q		
+	929	Highway $1		
+	930	Highway$1		
+	931	Iggy		
+	932	Ridge		
+	933	Ridge Fab 4G		
+	934	Ridge 4G		
+	935	Rainbow 4G		
+	936	Birdy		
+	937	Bloom		
+	938	Jimmy		
+	939	Getaway		
+	940	Goa		
+	941	Kite		
+	942	Lenny		
+	943	Lenny 2		
+	944	Slide		
+	945	Sunset		
+	946	Wax		
+	947	Hongmi 4G		
+	948	Hongmi 1S		
+	949	Hongmi 2 4G		
+	950	Hongmi		
+	951	MI 3		
+	952	MI 4C		
+	953	Redmi Note $1		
+	954	Redmi $1		
+	955	MI Note $1		
+	956	HM Note $1		
+	957	HM $1		
+	958	Luna 7		
+	959	Luna 7c		
+	960	Luna 10		
+	961	Luna 10c		
+	962	Noble 9.7		
+	963	Noble 10.1		
+	964	Noble Mini		
+	965	Xenta 7c		
+	966	Xenta 7ic		
+	967	Xenta 8ic		
+	968	Xenta 8c		
+	969	Xenta 9.7ic		
+	970	Xenta 9.7ic+		
+	971	Xenta 10ic		
+	972	Xenta 13c		
+	973	LA2-T		
+	974	Regza T-01C		
+	975	Regza T-01D		
+	976	Regza T-02D		
+	977	Regza IS04		
+	978	Regza IS11T		
+	979	Regza AT1S0		
+	980	Regza AT300SE		
+	981	Regza AT500a		
+	982	Regza AT$1		
+	983	Excite AT10-A		
+	984	Panorama		
+	985	Victory		
+	986	Dynamic		
+	987	Jazz		
+	988	Whizz		
+	989	Pride		
+	990	Firebird		
+	991	Marathon		
+	992	Turbo		
+	993	Evoke		
+	994	Glory		
+	995	Era Nano 1		
+	996	Era Nano 5		
+	997	Era Nano 3		
+	998	Energy		
+	999	Radiance		
+	1000	Miracle		
+	1001	Miracle 2		
+	1002	Trend		
+	1003	Diamond 2		
+	1004	Genius		
+	1005	Magic		
+	1006	Era Life 1		
+	1007	Chic		
+	1008	Pronto		
+	1009	Horizon		
+	1010	Horizon 2		
+	1011	Vista		
+	1012	Ego Vision 1		
+	1013	Evo Tech 1		
+	1014	Era Life 2		
+	1015	Energy 3		
+	1016	Spark		
+	1017	Era Nano 6		
+	1018	Phoenix		
+	1019	Energy 2		
+	1020	Coral		
+	1021	Evo Chic 3		
+	1022	Evo Tech 3		
+	1023	Era Style 3		
+	1024	Era Nano 4		
+	1025	Evo Energy 5		
+	1026	IQ$1		
+	1027	Web TV		
+	1028	V5S		
+	1029	V5 Max		
+	1030	Imperial		
+	1031	V5		
+	1032	Wrap 4G		
+	1033	Wrap Sync		
+	1034	Boost Max		
+	1035	Boost Max+		
+	1036	Vital		
+	1037	Nubia Z5 mini		
+	1038	Nubia Z5S mini		
+	1039	Nubia Z5S		
+	1040	Nubia Z7		
+	1041	Nubia Z7 mini		
+	1042	Nubia Z7 max		
+	1043	Nubia Z9		
+	1044	Nubia Z9 mini		
+	1045	Nubia Z9 max		
+	1046	Nubia My Prague		
+	1047	Nubia X6		
+	1048	V5 Red Bull		
+	1049	Grand Memo		
+	1050	Blade S6		
+	1051	Midnight		
+	1052	AxonPhone $1		
+	1053	One		
+	1054	Two		
+	1055	X		
+	1056	Staraddict 4		
+	1057	U11		
+	1058	One M9		
+	1059	Bolt		
+	1060	Lumia 532		
+	1061	Lumia 640 XL		
+	1062	Lumia 535		
+	1063	Lumia 430		
+	1064	Lumia 640		
+	1065	Lumia 435		
+	1066	Lumia 550		
+	1067	Lumia 540		
+	1068	Lumia 650		
+	1069	Lumia $1		
+	1070	2		
+	1071	3		
+	1072	6		
+	1073	7		
+	1074	BlackBerry DTEK60		
+	1075	KEYone		
+	1076	Aurora		
+	1077	Motion		
+	1078	KEY2 LE		
+	1079	KEY2		
+	1080	KEY2 Silver		
+	1081	KEY2 Black		
+	1082	Evolve		
+	1083	Evolve X		
+	1084	BlackBerry Priv		
+	1085	BlackBerry DTEK50		
+	1086	iPhone 7		
+	1087	iPhone 7 Plus		
+	1088	iPhone 8		
+	1089	iPhone 8 Plus		
+	1090	iPhone X		
+	1091	iPad Mini 4		
+	1092	iPad 5		
+	1093	iPad Pro 2 12.9		
+	1094	iPad Pro 10.5		
+	1095	iPad 6		
+	1096	iPad $1		
+	1097	Canvas Juice 2		
+	1098	Canvas 5		
+	1099	Canvas Tab		
+	1100	Canvas Mega		
+	1101	Bolt Selfie		
+	1102	Canvas Mega 2		
+	1103	Qoo! P-Pad		
+	1104	Qoo! Q-Pad		
+	1105	Qoo! Surf		
+	1106	Surf TS1009B		
+	1107	Qoo! Lite		
+	1108	Qoo! Meta		
+	1109	Qoo! Q-Book		
+	1110	T700i 3G		
+	1111	People		
+	1112	S1 X		
+	1113	S1		
+	1114	Rio S		
+	1115	Rio Pro		
+	1116	Rio		
+	1117	Heat $1		
+	1118	Hot $1		
+	1119	Trace Pro		
+	1120	Crystal		
+	1121	Discovery		
+	1122	Tau		
+	1123	Delta		
+	1124	Easy		
+	1125	Space		
+	1126	A554 Grand		
+	1127	Slim 3G		
+	1128	NP104 3G		
+	1129	Iconia Tab 10		
+	1130	Iconia One 7		
+	1131	Iconia Talk 7		
+	1132	Iconia One 8		
+	1133	Vangogh		
+	1134	Picasso E		
+	1135	Picasso		
+	1136	Liquid Mini		
+	1137	Liquid Express		
+	1138	Liquid E1 Duo		
+	1139	Liquid E2 Duo		
+	1140	Liquid Z110		
+	1141	Liquid Z5 Duo		
+	1142	Liquid Z4 Duo		
+	1143	Liquid Jade Z		
+	1144	Liquid Z530		
+	1145	Liquid Z630		
+	1146	Liquid Z630S		
+	1147	Liquid Zest		
+	1148	Liquid Zest 4G		
+	1149	Liquid Zest Plus		
+	1150	I Lite i7U		
+	1151	S5E NXT		
+	1152	I$1		
+	1153	I4U		
+	1154	Intro		
+	1155	Hollogram HL6246		
+	1156	Hollogram $1		
+	1157	AW790		
+	1158	M300		
+	1159	iLike		
+	1160	Glory $1		
+	1161	Eco E2		
+	1162	100		
+	1163	80		
+	1164	71		
+	1165	70		
+	1166	One Touch Pop Star		
+	1167	One Touch Pop Up		
+	1168	One Touch Pop C1		
+	1169	One Touch Pop C1 Dual SIM		
+	1170	One Touch Pop C2		
+	1171	One Touch Pop C2 Dual SIM		
+	1172	One Touch Pop C7		
+	1173	One Touch Pop C7 Dual SIM		
+	1174	One Touch Pop D1		
+	1175	One Touch Pop D3		
+	1176	One Touch Pop D5		
+	1177	"One Touch Pop 2 4"""		
+	1178	"One Touch Pop 2 4"" Dual SIM"		
+	1179	"One Touch Pop 2 4.5"""		
+	1180	"One Touch Pop 2 4.5"" Dual SIM"		
+	1181	"One Touch Pop 2 5"""		
+	1182	"One Touch Pop 2 5"" Dual SIM"		
+	1183	"One Touch Pop 3 5"""		
+	1184	"One Touch Pop 3 5.5"""		
+	1185	One Touch Pop 4 Dual SIM		
+	1186	One Touch 5033D		
+	1187	One Touch Pop 4S		
+	1188	One Touch Pop 4+		
+	1189	"One Touch Pop 4 6"""		
+	1190	One Touch Pop Mirage		
+	1191	One Touch Pop S3		
+	1192	One Touch Pop S7		
+	1193	One Touch Idol 2		
+	1194	One Touch Dawn		
+	1195	1S		
+	1196	One Touch Fierce 2		
+	1197	One Touch Fierce 4		
+	1198	One Touch Fierce XL		
+	1199	One Touch Idol 2 mini Dual SIM		
+	1200	One Touch Idol 2 mini S		
+	1201	"One Touch Idol 3 5.5"""		
+	1202	One Touch Idol 4		
+	1203	One Touch Idol 4S		
+	1204	One Touch Idol 5		
+	1205	One Touch Idol 5S		
+	1206	One Touch Idol X+		
+	1207	One Touch Hero 2		
+	1208	One Touch Hero 2C		
+	1209	TRU		
+	1210	One Touch Optus X Smart		
+	1211	One Touch Pixi Avion LTE		
+	1212	One Touch Pixi First		
+	1213	One Touch Pixi 2		
+	1214	"One Touch Pixi 3 3.5"""		
+	1215	"One Touch Pixi 3 3.5"" Dual SIM"		
+	1216	"One Touch Pixi 3 4"""		
+	1217	"One Touch Pixi 3 4.5"""		
+	1218	"One Touch Pixi 3 4.5"" 4G"		
+	1219	"One Touch Pixi 3 7"""		
+	1220	"One Touch Pixi 3 7"" 4G"		
+	1221	"One Touch Pixi 3 8"""		
+	1222	"One Touch Pixi 3 10"""		
+	1223	"One Touch Pixi 4 3.5"""		
+	1224	"One Touch Pixi 4 4"""		
+	1225	"One Touch Pixi 4 4.5"""		
+	1226	One Touch Pixi 4 Plus Power		
+	1227	"One Touch Pixi 4 5"" 3G"		
+	1228	"One Touch Pixi 4 5.5"" 3G"		
+	1229	"One Touch Pixi 4 5"" 4G"		
+	1230	One Touch Pixi Theatre		
+	1231	A3		
+	1232	A3 Plus		
+	1233	A3 XL		
+	1234	"A3 7"" 3G"		
+	1235	A5		
+	1236	A5 LED		
+	1237	A5 Max LED		
+	1238	A7		
+	1239	A30		
+	1240	A30 Plus		
+	1241	A30 Fierce		
+	1242	A50		
+	1243	Revvl		
+	1244	"One Touch Pixi 4 6"" 3G"		
+	1245	"One Touch Pixi 4 6"" 3G Dual SIM"		
+	1246	"One Touch Pixi 4 6"" 4G"		
+	1247	"One Touch Pixi 4 7"" 3G"		
+	1248	"One Touch Pixi 4 7"" WiFi"		
+	1249	One Touch Pixi 5		
+	1250	One Touch Go Play		
+	1251	Shine Lite		
+	1252	TIM XL		
+	1253	PulseMix		
+	1254	U3		
+	1255	U5		
+	1256	U5 3G		
+	1257	U5 HD		
+	1258	U5 Lite		
+	1259	U5 Plus		
+	1260	U50		
+	1261	1		
+	1262	1C		
+	1263	1X		
+	1264	3V		
+	1265	3C		
+	1266	3X		
+	1267	TETRA		
+	1268	A4 You		
+	1269	AX4 Nano		
+	1270	C6 Duo		
+	1271	E$1 Living		
+	1272	E3 Jump		
+	1273	E3 Sign		
+	1274	E4 Lite		
+	1275	M9 Connect		
+	1276	P43 Easy		
+	1277	P$1 eMagic		
+	1278	P$1 Lite		
+	1279	P6 Plus		
+	1280	P6 Qmax		
+	1281	P$1 Pro		
+	1282	P4 Quad		
+	1283	P9 Energy Lite (2017)		
+	1284	P9 Energy S		
+	1285	P$1 Energy Lite		
+	1286	P8 Energy Pro		
+	1287	P$1 Energy Mini		
+	1288	P$1 Energy		
+	1289	P7 Seon		
+	1290	P7 Xtreme		
+	1291	P$1 Life		
+	1292	P10 Style		
+	1293	V$1 Viper I 4G		
+	1294	V1 Viper I		
+	1295	V$1 Viper		
+	1296	V2 Viper X Plus		
+	1297	V2 Viper $1		
+	1298	X$1 Soul Xtreme		
+	1299	X4 Soul Infinity $1		
+	1300	X$1 Soul Lite		
+	1301	X4 Soul Mini S		
+	1302	X$1 Soul Mini		
+	1303	X3 Soul Plus		
+	1304	X$1 Soul Pro		
+	1305	X2 Soul Style Plus		
+	1306	X$1 Soul Style		
+	1307	X$1 Soul		
+	1308	X2 Twin		
+	1309	A5 Easy		
+	1310	A$1 Lite		
+	1311	A5 Ready		
+	1312	A5 Smiley		
+	1313	A5 Quad Plus		
+	1314	A5 Quad		
+	1315	A6 Duo		
+	1316	City Plus		
+	1317	City		
+	1318	AX2 Frenzy		
+	1319	Alldro 2 Speed Duo		
+	1320	Alldro 3 Speed Quad		
+	1321	Viva H801		
+	1322	AL-555		
+	1323	GI-626		
+	1324	Jack Pro		
+	1325	Tigo		
+	1326	Unico		
+	1327	Swift		
+	1328	Fuego		
+	1329	Uno		
+	1330	D1		
+	1331	C1		
+	1332	Pro		
+	1333	Plus		
+	1334	Geo		
+	1335	A1		
+	1336	P1		
+	1337	AM$1		
+	1338	SP618		
+	1339	UL40		
+	1340	Asper		
+	1341	Agio		
+	1342	Secret		
+	1343	Max Secret		
+	1344	Surf		
+	1345	Unami		
+	1346	Prima		
+	1347	Shine		
+	1348	Grid		
+	1349	Rider		
+	1350	Max Ritm		
+	1351	AS-5412 Max		
+	1352	AP-721N Force		
+	1353	AP-941		
+	1354	AP-106 Force		
+	1355	Benefit $1		
+	1356	Impulse P1 Plus		
+	1357	Impulse $1		
+	1358	Edge $1		
+	1359	Icon $1		
+	1360	X Pad 10 LTE		
+	1361	ZenPad C 7.0		
+	1362	ZenPad Z8		
+	1363	ZenPad Z10		
+	1364	ZenPad Z8s		
+	1365	ZenPad 7.0		
+	1366	ZenPad 8.0		
+	1367	ZenPad S 8.0		
+	1368	ZenPad 3S 10		
+	1369	ZenPad 3S 10 LTE		
+	1370	ZenPad 10		
+	1371	PadFone S		
+	1372	ZenFone AR		
+	1373	ZenFone V		
+	1374	ZenFone V Live		
+	1375	ZenFone Max M1		
+	1376	ZenFone Max Pro M1		
+	1377	ZenFone Max M2		
+	1378	ZenFone Live		
+	1379	ZenFone Live L1		
+	1380	Live		
+	1381	ZenFone 5Z		
+	1382	ZenFone Max Plus M1		
+	1383	ZenFone Max Pro M2		
+	1384	ZenFone Go Life		
+	1385	ZenFone Pegasus		
+	1386	ZenFone Pegasus 5000		
+	1387	ZenFone Pegasus 2 Plus		
+	1388	ZenFone Pegasus 3S Max		
+	1389	ZenFone 3 Pegasus		
+	1390	ZenFone 3 Zoom		
+	1391	ZenFone 3 Deluxe		
+	1392	ZenFone 3		
+	1393	ZenFone 3 Laser		
+	1394	ZenFone 3 Max		
+	1395	ZenFone 3 Ultra		
+	1396	ZenFone 4 Selfie		
+	1397	ZenFone 4 Max		
+	1398	ZenFone 4 Max Plus		
+	1399	ZenFone 4 Selfie Pro		
+	1400	ZenFone 4 Pro		
+	1401	ZenFone Max Pro		
+	1402	ZenFone Zoom		
+	1403	ROG Phone		
+	1404	Chromebook Flip C100PA		
+	1405	Excer 10 Pro		
+	1406	Y$1		
+	1407	Y710 Kids		
+	1408	Joy X2		
+	1409	Advance $1		
+	1410	Studio $1		
+	1411	Studio Selfie LTE		
+	1412	Studio One		
+	1413	Studio Selfie $1		
+	1414	Energy Diamond		
+	1415	Energy XL		
+	1416	Energy X Plus 2		
+	1417	Energy X Plus		
+	1418	Life XL		
+	1419	Dash XL		
+	1420	Pure XL		
+	1421	Life One X2		
+	1422	Life One		
+	1423	Neo X Plus		
+	1424	Neo $1		
+	1425	Grand 5.5 HD		
+	1426	Grand X LTE		
+	1427	R1 HD		
+	1428	R1 Plus		
+	1429	Tank Xtreme 5.0		
+	1430	Tank Xtreme Pro		
+	1431	Vivo Air LTE		
+	1432	Dash $1		
+	1433	V6		
+	1434	$1 Pro		
+	1435	BV9000 Pro F		
+	1436	Omega Pro		
+	1437	Maya		
+	1438	Xfire 2		
+	1439	Xfire		
+	1440	B7 Fox+		
+	1441	B7		
+	1442	B6		
+	1443	B5		
+	1444	B5+		
+	1445	B4		
+	1446	B4 Mini		
+	1447	B4 Mini NFC		
+	1448	B4 Mini (2019)		
+	1449	B3+		
+	1450	B3		
+	1451	BMM $1		
+	1452	Z3		
+	1453	X23		
+	1454	Y93		
+	1455	Y97		
+	1456	Y73		
+	1457	Y91i		
+	1458	Y91		
+	1459	Y81i		
+	1460	Pro $1		
+	1461	Tab		
+	1462	E700		
+	1463	Smart 2		
+	1464	Smart $1		
+	1465	Smart Dual		
+	1466	Discovery 111C		
+	1467	Discovery 1000C		
+	1468	Discovery 1001A		
+	1469	Discovery 1001		
+	1470	Endeavour $1		
+	1471	Polaris $1		
+	1472	Atlantis $1		
+	1473	AX$1		
+	1474	AX700		
+	1475	Strike LTE		
+	1476	Vision		
+	1477	Hornet Plus Pro		
+	1478	Hornet Plus		
+	1479	BQ-8052G		
+	1480	Art		
+	1481	Simple		
+	1482	Andros		
+	1483	Elba		
+	1484	Hornet		
+	1485	Canion		
+	1486	Hit		
+	1487	Max		
+	1488	Union		
+	1489	Jamaica		
+	1490	Universe		
+	1491	Practic		
+	1492	Jumbo		
+	1493	Next Music		
+	1494	Spring		
+	1495	Space X		
+	1496	Strike Power Max		
+	1497	Jeans		
+	1498	Next		
+	1499	Silk		
+	1500	Fast Plus		
+	1501	Twin Pro		
+	1502	Twin		
+	1503	Wide		
+	1504	Fast		
+	1505	Strike Forward		
+	1506	Bliss		
+	1507	Strike Power Max 4G		
+	1508	Next LTE		
+	1509	Iron Max		
+	1510	Strike Selfie Max		
+	1511	Nice 2		
+	1512	Hammer		
+	1513	Kawasaki		
+	1514	Vancouver		
+	1515	Advance		
+	1516	Velvet 2		
+	1517	Strike View		
+	1518	Velvet View		
+	1519	Strike		
+	1520	Balance		
+	1521	Strike Selfie		
+	1522	Space Lite		
+	1523	Sense 2		
+	1524	Belief		
+	1525	Choice		
+	1526	Strike Power		
+	1527	Strike Power Easy		
+	1528	Strike 2		
+	1529	Fresh		
+	1530	Turbo Plus		
+	1531	Sense		
+	1532	Strike Power 4G		
+	1533	Velvet		
+	1534	Shark		
+	1535	Element		
+	1536	High Way		
+	1537	Bond		
+	1538	First		
+	1539	Rich		
+	1540	Monte Carlo		
+	1541	Spot		
+	1542	Prague		
+	1543	Sydney		
+	1544	Brave		
+	1545	Iron		
+	1546	Los Angeles		
+	1547	Intense		
+	1548	Paris		
+	1549	Shark Pro		
+	1550	Fun		
+	1551	Colombo		
+	1552	Contact		
+	1553	Milan		
+	1554	Tokyo		
+	1555	Blade		
+	1556	Montreal		
+	1557	Оsaka		
+	1558	Venice		
+	1559	Fox View		
+	1560	Drive		
+	1561	Golf		
+	1562	Richmond		
+	1563	Fox		
+	1564	Vienna		
+	1565	Singapore		
+	1566	Moscow		
+	1567	Florence		
+	1568	Santiago		
+	1569	Dubai		
+	1570	Kingston		
+	1571	Bristol		
+	1572	Fox Easy		
+	1573	Shark Mini		
+	1574	Strike Mini		
+	1575	Up!		
+	1576	Orleans		
+	1577	Shanghai		
+	1578	Seoul		
+	1579	Dusseldorf		
+	1580	Verona		
+	1581	Cool		
+	1582	Oxford		
+	1583	Aspen Mini		
+	1584	Bombay		
+	1585	Hornet Max Pro		
+	1586	Hornet Max		
+	1587	Armor Pro Plus		
+	1588	Armor Pro		
+	1589	Armor Pro LTE		
+	1590	Passion		
+	1591	Corsika		
+	1592	Hawaii		
+	1593	Grace		
+	1594	Aquaris M8		
+	1595	Mercury		
+	1596	Slim		
+	1597	Java		
+	1598	Fiji		
+	1599	Grace 3G		
+	1600	Luzon		
+	1601	Clarion		
+	1602	Fusion		
+	1603	Malta		
+	1604	Сharm		
+	1605	Maui		
+	1606	Armor Power		
+	1607	Necker		
+	1608	Orion		
+	1609	Nexion		
+	1610	7083		
+	1611	1056L		
+	1612	Aquaris $1		
+	1613	Omega		
+	1614	Flare HD Max		
+	1615	Flare Lite		
+	1616	Flare S Play		
+	1617	Flare XL Plus		
+	1618	Flare $1 Lite		
+	1619	Flare $1 Mini		
+	1620	Flare J2s		
+	1621	Flare S4 Max LTE		
+	1622	Flare S4 Max		
+	1623	Flare S5 Lite DTV		
+	1624	Flare S6 Plus		
+	1625	Flare S6 Power		
+	1626	Flare $1		
+	1627	Omega HD 4		
+	1628	GT100		
+	1629	CT701W		
+	1630	CT701G Plus		
+	1631	Evo 5.0		
+	1632	Smartphone $1 Lite		
+	1633	Smartphone 6.1		
+	1634	Smartphone 6.2 Lite		
+	1635	Smartphone $1		
+	1636	"7.85"""		
+	1637	H7		
+	1638	L7		
+	1639	L7 3G		
+	1640	L7.1 3G		
+	1641	L8		
+	1642	M7		
+	1643	M8		
+	1644	CTAB $1		
+	1645	C8		
+	1646	C4+ Noir		
+	1647	C7 Mini		
+	1648	Plume P4		
+	1649	C5		
+	1650	C8S		
+	1651	C7		
+	1652	Allure A9		
+	1653	C6+		
+	1654	C6 Pro		
+	1655	Allure A9 Plus		
+	1656	Griffe G4		
+	1657	Plume P7		
+	1658	Plume P4 Pro		
+	1659	Plume P5		
+	1660	Plume P6		
+	1661	Griffe G4 Plus		
+	1662	P7 Plus		
+	1663	Plume P4 Plus		
+	1664	Plume P6 Pro Lte		
+	1665	Plume P8		
+	1666	Allure A55		
+	1667	Allure A100		
+	1668	Allure A55 Slim		
+	1669	Allure A100 Lite		
+	1670	Plume P8 Lite		
+	1671	Allure A8		
+	1672	Allure A8 Plus		
+	1673	Allure A55 Plus		
+	1674	Plume L1		
+	1675	PGN-$1		
+	1676	Cool Play 6		
+	1677	REVVL Plus		
+	1678	Note 3 Plus		
+	1679	Note 3 Lite		
+	1680	Action-X3		
+	1681	ODYSSEY+		
+	1682	ODYSSEY S1		
+	1683	Trekker-$1		
+	1684	Cheetah 2		
+	1685	Dinosaur		
+	1686	King Kong		
+	1687	Manito		
+	1688	Note Plus		
+	1689	Note S		
+	1690	Power		
+	1691	X18 Plus		
+	1692	M10		
+	1693	Flyfix 6		
+	1694	Flyfix Q		
+	1695	Wing 5		
+	1696	Wing 9		
+	1697	Venus $1		
+	1698	D5500		
+	1699	Konnect $1		
+	1700	Venue		
+	1701	Venue Pro		
+	1702	Ixion $1		
+	1703	Ursus $1		
+	1704	Atlas		
+	1705	DL810		
+	1706	DL1008M		
+	1707	HIT 3G		
+	1708	iDx5		
+	1709	iDxD10 3G		
+	1710	Linx 6.0		
+	1711	Linx 4.5		
+	1712	iDx8		
+	1713	iDx9		
+	1714	HIT 4G		
+	1715	D-Plane2 8		
+	1716	Platina 7.2 4G		
+	1717	Platina 7.2 3G		
+	1718	Valencia2 Y100pro		
+	1719	BL12000 Pro		
+	1720	BL5500 Lite		
+	1721	BL12000		
+	1722	Kissme DG580		
+	1723	Eclipse $1		
+	1724	HORIZON Lite		
+	1725	SMART 4G		
+	1726	Hawk		
+	1727	S5LS		
+	1728	X4U Plus		
+	1729	P6000 Plus		
+	1730	P6000 02		
+	1731	P6000 Pro		
+	1732	PH-1		
+	1733	i250		
+	1734	A75A Star		
+	1735	Onyx $1		
+	1736	ePad 4S		
+	1737	F23		
+	1738	Xperia A4		
+	1739	Xperia 10		
+	1740	Xperia 10 Plus		
+	1741	Xperia 1		
+	1742	Xperia UL		
+	1743	Xperia E4g Dual		
+	1744	Xperia L2		
+	1745	Xperia L2 Dual		
+	1746	Xperia L3		
+	1747	Xperia L3 Dual		
+	1748	Xperia M4 Aqua Dual		
+	1749	Xperia M5 Dual		
+	1750	Xperia C4		
+	1751	Xperia C4 Dual		
+	1752	Xperia C5 Ultra		
+	1753	Xperia C5 Ultra Dual		
+	1754	Xperia Z2a		
+	1755	Xperia Z3v		
+	1756	Xperia Z4		
+	1757	Xperia Z5 Premium Dual		
+	1758	Xperia XA Dual		
+	1759	Xperia XA Ultra		
+	1760	Xperia XA Ultra Dual		
+	1761	Xperia XZ		
+	1762	Xperia XZ1		
+	1763	Xperia XZ1 Compact		
+	1764	Xperia XA1		
+	1765	Xperia XA1 Plus		
+	1766	Xperia XA1 Plus Dual		
+	1767	Xperia XA1 Ultra		
+	1768	Xperia XA2		
+	1769	Xperia XA2 Dual		
+	1770	Xperia XA2 Plus Dual		
+	1771	H4433		
+	1772	Xperia XA2 Ultra		
+	1773	Xperia XZs		
+	1774	Xperia XZ Premium		
+	1775	Xperia XZ2		
+	1776	Xperia XZ2 Dual		
+	1777	Xperia XZ2 Premium Dual		
+	1778	Xperia XZ3		
+	1779	Xperia L1		
+	1780	Xperia L1 Dual		
+	1781	Xperia X Dual		
+	1782	Xperia X Compact		
+	1783	Xperia X Performance		
+	1784	Xperia X Performance Dual		
+	1785	B502 Basic		
+	1786	B504 Unit		
+	1787	A500 Best		
+	1788	A550 Maxx		
+	1789	Prime B400		
+	1790	A502 Aurum		
+	1791	A503 Optima		
+	1792	A551 Sky 4G		
+	1793	A553 Power		
+	1794	A555 Universe		
+	1795	A556		
+	1796	F500		
+	1797	F501		
+	1798	B500 First		
+	1799	Force F500		
+	1800	GoTab GBT9		
+	1801	GoTab GTi8		
+	1802	Tab Crystal Lite		
+	1803	Tab Hero II		
+	1804	Power Max $1		
+	1805	M4 Magic		
+	1806	Smart TV $1		
+	1807	Rio Play		
+	1808	Leader		
+	1809	Play Pad 3G Goo		
+	1810	Play Pad 3G Tab XL		
+	1811	Rock X9+		
+	1812	Amosta 3G5		
+	1813	Atrium II		
+	1814	Trio F40LT		
+	1815	Epic F50G		
+	1816	Prime		
+	1817	Virtue II 8GB		
+	1818	Virtue II		
+	1819	Virtue III		
+	1820	SP5045V		
+	1821	ConeXis A1		
+	1822	ConeXis A2		
+	1823	ConeXis X1		
+	1824	ConeXis X2		
+	1825	Arrows NX F-01J		
+	1826	Arrows NX F-01K		
+	1827	Arrows Fit F-01H		
+	1828	Arrows NX F-02G		
+	1829	Arrows NX F-02H		
+	1830	Arrows Kiss F-03D		
+	1831	Arrows Kiss F-03E		
+	1832	Disney Mobile F-03F		
+	1833	Arrows SV F-03H		
+	1834	Arrows V F-04E		
+	1835	Arrows NX F-04G		
+	1836	Arrows NX F-05F		
+	1837	Arrows Be F-05J		
+	1838	Arrows μ F-07D		
+	1839	Disney Mobile F-07E		
+	1840	Disney Mobile F-08D		
+	1841	ANTEPRIMA F-09D		
+	1842	Arrows X F-10D		
+	1843	Arrows Me F-11D		
+	1844	Arrows Tab F-03G		
+	1845	Arrows Tab M504/HA4		
+	1846	Stylistic		
+	1847	Shining 7		
+	1848	G1		
+	1849	QS702		
+	1850	Zeus 3G		
+	1851	Axis 7		
+	1852	$1 Ultimate		
+	1853	F103$1		
+	1854	M7 Power		
+	1855	P5 mini		
+	1856	GTM-5$1		
+	1857	Libra 97		
+	1858	Go Onyx		
+	1859	Go$1		
+	1860	Pixel		
+	1861	Pixel XL		
+	1862	Pixel 3 XL		
+	1863	Pixel 2 XL		
+	1864	Pixel 3		
+	1865	Pixel 2		
+	1866	Pixel C		
+	1867	SN1AT71W(B)		
+	1868	SN70T31		
+	1869	SN70T3		
+	1870	SN70T51A		
+	1871	SN97T41W		
+	1872	SNAT71BUE		
+	1873	A6		
+	1874	Smartfren Andromax Z		
+	1875	X $1		
+	1876	Y Max		
+	1877	Enjoy 5S		
+	1878	Enjoy 6S		
+	1879	Enjoy 6		
+	1880	Enjoy 7		
+	1881	Honor Play 7		
+	1882	Enjoy 7S		
+	1883	Enjoy 8		
+	1884	Enjoy 8e		
+	1885	Enjoy 8 Plus		
+	1886	Enjoy 9e		
+	1887	G Play		
+	1888	G Play Mini		
+	1889	Honor 6C		
+	1890	GR3 (2017)		
+	1891	GR5 (2017)		
+	1892	Ascend G527		
+	1893	Ascend G620S		
+	1894	Ascend G630		
+	1895	Ascend XT2		
+	1896	Ascend Y221		
+	1897	Ascend Y550		
+	1898	Honor 20		
+	1899	Honor 20 Pro		
+	1900	Honor P30 Pro		
+	1901	Honor Pad 2		
+	1902	Honor Play 8A		
+	1903	Honor V8		
+	1904	Honor V9		
+	1905	Honor V9 Play		
+	1906	Honor V10		
+	1907	Honor V20		
+	1908	Honor View 10		
+	1909	Honor View 20		
+	1910	Honor 5A		
+	1911	Honor 6 Play		
+	1912	Honor 6 Plus		
+	1913	Honor Y6 II Compact		
+	1914	Honor 7A		
+	1915	Honor 7A Pro		
+	1916	Honor 7C		
+	1917	Honor 7S		
+	1918	Honor 5C		
+	1919	Honor 5C Dual SIM		
+	1920	Honor 6A		
+	1921	Honor 6C Pro		
+	1922	Honor 6X		
+	1923	Honor 7i		
+	1924	Honor 7X		
+	1925	Honor 8		
+	1926	Honor 8A		
+	1927	Honor 8C		
+	1928	Honor 8X		
+	1929	Honor 8S		
+	1930	Honor 8X Max		
+	1931	Honor 8 Lite		
+	1932	Honor 8 Pro		
+	1933	Honor 8A Pro		
+	1934	Honor 8 Smart		
+	1935	Honor 9		
+	1936	Honor 9X		
+	1937	Honor 9i		
+	1938	Honor 9 Lite		
+	1939	Honor 10		
+	1940	Honor 10 Lite		
+	1941	Honor P10 Plus		
+	1942	Honor Holly 3		
+	1943	Honor Holly 4 Plus		
+	1944	Honor Magic 2		
+	1945	Honor Play		
+	1946	Honor Note 8		
+	1947	Honor Note 10		
+	1948	P8		
+	1949	P8 Lite (2015)		
+	1950	P8 Lite (2017)		
+	1951	Nova 2		
+	1952	Nova 2S		
+	1953	Nova 2 Plus		
+	1954	Nova 2 Plus Dual SIM		
+	1955	Nova 2I		
+	1956	Nova 3		
+	1957	Nova 3e		
+	1958	Nova 3i		
+	1959	Nova 5 Pro		
+	1960	Nova 4		
+	1961	Nova 4e		
+	1962	Nova Youth		
+	1963	Nova Smart		
+	1964	GX8		
+	1965	P9		
+	1966	P9 Lite		
+	1967	P9 Lite Mini		
+	1968	P9 Lite Smart		
+	1969	P9 Plus		
+	1970	P10		
+	1971	P10 Lite		
+	1972	P10 Selfie		
+	1973	P10 Plus		
+	1974	P20		
+	1975	P20 Lite		
+	1976	P20 Pro		
+	1977	P30		
+	1978	P30 Pro		
+	1979	P30 Lite		
+	1980	P30 Lite Dual SIM		
+	1981	P smart		
+	1982	P smart Z		
+	1983	P smart (2019)		
+	1984	9S		
+	1985	Y3 (2017)		
+	1986	Y3 (2018)		
+	1987	Y3II		
+	1988	Y5II		
+	1989	Y5 (2017)		
+	1990	Y5 (2019)		
+	1991	Y5 Lite (2017)		
+	1992	Y5 Lite (2018)		
+	1993	Y5 Prime (2018)		
+	1994	Y5 lite		
+	1995	Y5 Pro (2017)		
+	1996	Y6		
+	1997	Y6 (2016)		
+	1998	Y6 (2017)		
+	1999	Y6II		
+	2000	Y6 (2018)		
+	2001	Y6 (2019)		
+	2002	Y6 Pro		
+	2003	Y6 Pro (2019)		
+	2004	Y6 Prime (2018)		
+	2005	Y7 (2017)		
+	2006	Y7 (2018)		
+	2007	Y7 (2019)		
+	2008	Y7 Pro (2019)		
+	2009	Y7 Prime		
+	2010	Y7 Prime (2018)		
+	2011	Y9 (2018)		
+	2012	Y9 (2019)		
+	2013	Y9 Prime (2019)		
+	2014	Y625		
+	2015	Y635		
+	2016	Y635 Dual SIM		
+	2017	Mate 8		
+	2018	Mate 9		
+	2019	Mate 9 Lite		
+	2020	Mate 9 Pro		
+	2021	Mate 10		
+	2022	Mate 10 Lite		
+	2023	Mate 10 Pro		
+	2024	Mate 20		
+	2025	Mate 20 RS		
+	2026	Mate 20 Pro		
+	2027	Mate 20 Lite		
+	2028	Mate 20 X		
+	2029	Mate S		
+	2030	Mate RS		
+	2031	Mate RS Porsche Design		
+	2032	Mate SE		
+	2033	Y330-U05		
+	2034	Y5 (2018)		
+	2035	ShotX		
+	2036	MediaPad M5 10.8		
+	2037	MediaPad X2		
+	2038	MediaPad M5 lite		
+	2039	MediaPad M5 8.4		
+	2040	MediaPad M6 8.4		
+	2041	MediaPad M3 8		
+	2042	MediaPad M3 Lite		
+	2043	MediaPad M3 Lite 10		
+	2044	MediaPad M3		
+	2045	MediaPad T5 10		
+	2046	MediaPad T3 10		
+	2047	MediaPad T3 8		
+	2048	MediaPad T3 7		
+	2049	MediaPad T2 7.0		
+	2050	MediaPad T2 7.0 Pro		
+	2051	MediaPad T2 10.0 Pro		
+	2052	Ultra $1		
+	2053	Eternity G23		
+	2054	Eternity G24		
+	2055	Eternity G27		
+	2056	Eternity W42		
+	2057	DX758 Pro		
+	2058	Like		
+	2059	One Love		
+	2060	Titan P11000 Pro		
+	2061	Like 3 Pro		
+	2062	Like 3		
+	2063	Like 4U		
+	2064	X300 Elite		
+	2065	NetTAB Mercury Quad FHD		
+	2066	NetTAB Sky LE		
+	2067	NetTAB Thor IZ		
+	2068	NetTAB Thor quad II		
+	2069	NetTAB Thor LE		
+	2070	NetTAB Thor 3G quad		
+	2071	NetTAB Pocket 3G		
+	2072	NetTAB Pocket 3G Slim		
+	2073	NetTAB Sky HD 3G		
+	2074	NetTAB Skat 3G quad		
+	2075	NetTAB Sky 3G duo		
+	2076	NetTAB Thor ZX 3G		
+	2077	NetTAB Sky net		
+	2078	NetTAB Skat MX		
+	2079	NetTAB Space quad RX		
+	2080	NetTAB Matrix 3G duo		
+	2081	NetTAB Matrix 3GT		
+	2082	Flame 2		
+	2083	Earth 1		
+	2084	Earth 2		
+	2085	Water F1		
+	2086	Flame LS-4503		
+	2087	Flame 3		
+	2088	Flame 4		
+	2089	Flame 5		
+	2090	Flame 6		
+	2091	Flame 7		
+	2092	Flame 7S		
+	2093	Flame 8		
+	2094	Water 1		
+	2095	Water 4		
+	2096	Water 6		
+	2097	Water 2		
+	2098	Wind 6		
+	2099	Wind 5		
+	2100	Wind 4		
+	2101	Wind 1		
+	2102	Water 8		
+	2103	Wind 7		
+	2104	Water 7		
+	2105	Water 11		
+	2106	Wind 4S		
+	2107	Water 10		
+	2108	Water F1S		
+	2109	Wind 3		
+	2110	Water 3		
+	2111	Water 9		
+	2112	Wind 2		
+	2113	Neo SR620		
+	2114	Joy		
+	2115	Max One		
+	2116	Max Ultra		
+	2117	Play		
+	2118	In Touch		
+	2119	Style		
+	2120	Soul Mini		
+	2121	Soul		
+	2122	Style Access		
+	2123	Share		
+	2124	Believe		
+	2125	Dream		
+	2126	Inspiration		
+	2127	Excite		
+	2128	Evolution		
+	2129	Ever		
+	2130	Elegance		
+	2131	Feel Plus		
+	2132	Attitude		
+	2133	B$1		
+	2134	Q2		
+	2135	Kylin 5.0S		
+	2136	Kylin 5.0		
+	2137	Kylin 5.5		
+	2138	Buzz		
+	2139	Alpha Marvel		
+	2140	Alpha		
+	2141	Surf Smart		
+	2142	Surf Smart 3G		
+	2143	Surf Smart 2		
+	2144	Surf Spice		
+	2145	Surf Bravo		
+	2146	Surf Noir		
+	2147	Race		
+	2148	Race Lite		
+	2149	Race Bolt		
+	2150	Race Bolt Q		
+	2151	Race Bolt 2		
+	2152	Race Eagle		
+	2153	Race Jet		
+	2154	Zero		
+	2155	Zero 2		
+	2156	Zero 3		
+	2157	Zero 4		
+	2158	Zero 4 Plus		
+	2159	Zero 5		
+	2160	Zero 5 Pro		
+	2161	Hot		
+	2162	Hot 2		
+	2163	Hot 3		
+	2164	Hot S		
+	2165	Hot S2		
+	2166	Hot 4		
+	2167	Hot 4 Pro		
+	2168	Hot 5		
+	2169	Hot 5 Lite		
+	2170	Hot 6		
+	2171	Hot 6 Pro		
+	2172	Hot S3		
+	2173	Smart		
+	2174	Smart 2 Pro		
+	2175	Hot Note		
+	2176	Note 2		
+	2177	Note 4		
+	2178	Note 4 Pro		
+	2179	Note 5		
+	2180	Hot $1$2		
+	2181	X7S-T		
+	2182	X8 Mini Pro		
+	2183	X8 Mini		
+	2184	X7S Elite		
+	2185	733TPC		
+	2186	ImSmart $1		
+	2187	ImPad $1		
+	2188	Tablet PC $1		
+	2189	Cosmo $1		
+	2190	Freedom $1		
+	2191	Freedom		
+	2192	Spacer 2S		
+	2193	Spacer 2		
+	2194	Spacer		
+	2195	Blaster 2		
+	2196	Blaster		
+	2197	Element Q		
+	2198	Liberty		
+	2199	Flash		
+	2200	Sun		
+	2201	Zeta		
+	2202	Sigma		
+	2203	Alumini 2		
+	2204	Alumini 3 Plus		
+	2205	Alumini 3		
+	2206	TV		
+	2207	M729		
+	2208	M$1		
+	2209	MX780		
+	2210	M851		
+	2211	M1050s		
+	2212	M1070		
+	2213	MX736		
+	2214	IM5		
+	2215	Smartway $1		
+	2216	Smartway X1		
+	2217	Tablet $1		
+	2218	NET 1100		
+	2219	Hydro ICON		
+	2220	Hydro LIFE		
+	2221	Hydro WAVE		
+	2222	Hydro Reach		
+	2223	DuraForce Pro		
+	2224	DuraForce Pro 2		
+	2225	Torque		
+	2226	Digno S		
+	2227	Urbano L03		
+	2228	DuraForce XD		
+	2229	MOVE 6 Mini		
+	2230	MOVE $1		
+	2231	DRIVE 4 mini LTE		
+	2232	Flair Z1		
+	2233	A67		
+	2234	A76		
+	2235	Pixel V1		
+	2236	Iris X1 Selfie		
+	2237	X41 Plus		
+	2238	Z61		
+	2239	S6		
+	2240	XM$100$2		
+	2241	Ilium Pad $1		
+	2242	Ilium X120C		
+	2243	Ilium $1		
+	2244	Cumulus $1 HD		
+	2245	FreeMe X2 $1 Version $2		
+	2246	FreeMe X4 7HD 3G		
+	2247	FreeMe X2 $1		
+	2248	FreeMe X4 7HD		
+	2249	FreeMe X4 9		
+	2250	Evolution $1		
+	2251	Ultimate $1		
+	2252	Phablet 7		
+	2253	Phablet 6.0		
+	2254	Bjorn SP-500		
+	2255	Cirrus $1		
+	2256	M8 Pro		
+	2257	M5 Edge		
+	2258	KICCAA Power		
+	2259	Trendy 5.0		
+	2260	Le 1 Pro		
+	2261	Max X900+		
+	2262	Le 1S		
+	2263	Le X900		
+	2264	Le 2		
+	2265	Le X$1		
+	2266	Le $1		
+	2267	Le Max$1		
+	2268	Argon e250		
+	2269	Krypton K150		
+	2270	A2107		
+	2271	TAB3 7		
+	2272	TAB3 8		
+	2273	TAB4 10		
+	2274	TAB4 10 Plus		
+	2275	Moto Tab		
+	2276	IdeaTab S6000		
+	2277	TAB 4 8		
+	2278	TAB 4 10		
+	2279	Tab 4 10 Plus		
+	2280	Z2 Plus		
+	2281	ZUK Edge		
+	2282	ZUK Z2		
+	2283	ZUK Z2 Pro		
+	2284	ZUK $1		
+	2285	C2		
+	2286	K3 Note		
+	2287	K4 Note		
+	2288	K5 Note		
+	2289	K5 Vibe		
+	2290	K5 Vibe Plus		
+	2291	K6		
+	2292	K6 Note		
+	2293	K6 Power		
+	2294	P1 Vibe		
+	2295	P1 Pro		
+	2296	P2		
+	2297	Vibe Shot		
+	2298	Vibe S1		
+	2299	A$1		
+	2300	Vega		
+	2301	Irida		
+	2302	Pallada		
+	2303	Oxygen		
+	2304	S4A4 Neon		
+	2305	Callisto		
+	2306	Overon		
+	2307	Capella		
+	2308	Argon		
+	2309	Antares		
+	2310	SC7 PRO HD		
+	2311	L70		
+	2312	Phoenix 4		
+	2313	G3		
+	2314	G3 Beat		
+	2315	G4		
+	2316	G4c		
+	2317	G4 Stylus		
+	2318	G4 Beat		
+	2319	G5		
+	2320	G5 SE		
+	2321	G6		
+	2322	G7 Fit		
+	2323	G7 One		
+	2324	G8		
+	2325	K20		
+	2326	Magna		
+	2327	Risio		
+	2328	Risio 2		
+	2329	Optimus One		
+	2330	V20		
+	2331	Q Stylus Plus		
+	2332	Q7		
+	2333	Q7+		
+	2334	Q8+		
+	2335	Q9		
+	2336	Stylo 2 V		
+	2337	Stylo 4		
+	2338	G7 ThinQ		
+	2339	Fortune 2		
+	2340	Premier Pro		
+	2341	Q60		
+	2342	X2		
+	2343	X Power 3		
+	2344	X4		
+	2345	X4+		
+	2346	K11		
+	2347	K30		
+	2348	LM-X410		
+	2349	X4 (2019)		
+	2350	X5		
+	2351	X6		
+	2352	Aristo 2		
+	2353	Aristo 3		
+	2354	V40 ThinQ		
+	2355	V50		
+	2356	V10		
+	2357	K8 4G		
+	2358	K8 V		
+	2359	K8 (2018)		
+	2360	V30		
+	2361	Optimus Zone		
+	2362	V35		
+	2363	Optimus Zone 2		
+	2364	Optimus Zone 3		
+	2365	K3		
+	2366	K7		
+	2367	K8		
+	2368	K10		
+	2369	K10 (2017)		
+	2370	K20 Plus		
+	2371	Q6		
+	2372	X Power		
+	2373	X Power 2		
+	2374	Phoenix 2		
+	2375	Phoenix 3		
+	2376	Optimus Vu		
+	2377	Optimus 4X HD		
+	2378	Leon		
+	2379	Optimus Pro		
+	2380	Rebel 4		
+	2381	G Pad X 8.0		
+	2382	G Pad 8.3 LTE		
+	2383	G Pad X 8.3		
+	2384	La Tab 72		
+	2385	L-ixir Tab 701		
+	2386	L-ixir Tab 1041		
+	2387	L-ixir Tab $1		
+	2388	L-ite Tab $1		
+	2389	L-ement Tab $1		
+	2390	POWER BOT		
+	2391	$1 BOT $2		
+	2392	Le Lift		
+	2393	BigCool		
+	2394	Cool-K		
+	2395	Cool Five		
+	2396	Just 5		
+	2397	Link 5		
+	2398	K9 Kavach 4G		
+	2399	K9 Music 4G		
+	2400	K9 Smart		
+	2401	K9 Smart 4G		
+	2402	K9 Smart Grand		
+	2403	K9 Smart Yuva		
+	2404	K9 Viraat 4G		
+	2405	Titanium S2 Plus		
+	2406	Titanium S99		
+	2407	Titano 3		
+	2408	Mezo 2		
+	2409	Rocky 2		
+	2410	Rocky 3 Pro		
+	2411	Forto 2		
+	2412	Astro 5N LTE		
+	2413	Virtue Z5		
+	2414	SSB-500		
+	2415	Alpha X		
+	2416	SmartPad 10 Go 3G		
+	2417	Life X5001		
+	2418	M1E		
+	2419	M2E		
+	2420	M6T		
+	2421	M3E		
+	2422	M3S		
+	2423	M3X		
+	2424	M5S		
+	2425	MX5		
+	2426	M1 Metal		
+	2427	PRO 6		
+	2428	PRO 7		
+	2429	MX Dual Core		
+	2430	MIDM $1		
+	2431	MPM $1		
+	2432	Atmos II		
+	2433	Polys MS45L1		
+	2434	Atmos Pro II		
+	2435	Atmos Pro		
+	2436	GAIA		
+	2437	Inti		
+	2438	MB-2900 Quattro		
+	2439	MS43A3000		
+	2440	eOn 45		
+	2441	eOn 50		
+	2442	eOn 50 Elegance		
+	2443	eOn 50 Quad 8		
+	2444	eOn 50 Quad 16		
+	2445	MS50B11000		
+	2446	Wave 5		
+	2447	Zumbo		
+	2448	Lai Zumbo S (2017)		
+	2449	Lai Zumbo S Lite (2017)		
+	2450	Zumbo S2		
+	2451	Lai Zumbo J		
+	2452	Lai Zumbo J (2017)		
+	2453	Lai Zumbo J2		
+	2454	Zumbo Power		
+	2455	Lai Yuna $1		
+	2456	Lai Yuki		
+	2457	Lai Zoro $1		
+	2458	Lai Zena		
+	2459	Lai Z$1		
+	2460	Zoro 4G		
+	2461	Touch Lai 512		
+	2462	Lai 504$1		
+	2463	Lai Y		
+	2464	Prime X		
+	2465	Prime $1		
+	2466	Prime X Max		
+	2467	Kool$1		
+	2468	Kat 452		
+	2469	Lai Yollo		
+	2470	KM9 Pro		
+	2471	BB2 Pro		
+	2472	KII Pro		
+	2473	Moto E3 Power		
+	2474	Moto X2		
+	2475	Droid Turbo		
+	2476	Moto X Play		
+	2477	Moto Z		
+	2478	Moto Z Play		
+	2479	Moto M		
+	2480	Moto $1$2$3		
+	2481	Moto $1$2		
+	2482	Sm@rt Mini $1		
+	2483	Steppa		
+	2484	MTN-$1		
+	2485	Hammer Energy		
+	2486	Hammer Axe M LTE		
+	2487	Hammer Titan 2		
+	2488	C-Smart Pix		
+	2489	City 3		
+	2490	Five		
+	2491	Grand 4G		
+	2492	Wide 4G		
+	2493	Wide 2		
+	2494	Supreme Max		
+	2495	Core Forte		
+	2496	Hummer LE		
+	2497	Hummer Lite		
+	2498	Move SE		
+	2499	Vision H3SE		
+	2500	Vision H3		
+	2501	Loop		
+	2502	H4SE		
+	2503	MG12		
+	2504	H44SE		
+	2505	H10LE		
+	2506	Y50		
+	2507	Ultra 2		
+	2508	Blink		
+	2509	Ego		
+	2510	Fenix		
+	2511	Fly II		
+	2512	Fly Mini		
+	2513	Fly		
+	2514	Jak		
+	2515	Join		
+	2516	Noba II		
+	2517	Noba		
+	2518	Orbis		
+	2519	Rex		
+	2520	Shade		
+	2521	Sky		
+	2522	Zeus HD		
+	2523	Air		
+	2524	Xelio A10		
+	2525	Xelio Phonetab 3		
+	2526	Xelio Next 10 Plus 3G		
+	2527	Xelio Phonetab 7 3G		
+	2528	Xelio 10 Xtreme		
+	2529	Xelio 10 Plus 3G		
+	2530	Element 10 Plus 3G		
+	2531	Connect 8 Plus		
+	2532	Connect 7 Pro		
+	2533	Maven 10 Pro Plus 3G		
+	2534	Maven 10 Plus		
+	2535	Maven 10 Pro		
+	2536	Maven 10 HD		
+	2537	Rapid 7 LTE		
+	2538	Rapid 10 LTE		
+	2539	Tao X10		
+	2540	Space 10 Plus 3G		
+	2541	Space 10 Pro 3G		
+	2542	Thor 10		
+	2543	Neo X		
+	2544	EOS 10		
+	2545	Aeon		
+	2546	Falcon 10 Plus 3G		
+	2547	Fusion 7		
+	2548	Neo 6 LTE		
+	2549	Titan		
+	2550	Thor 10 Plus 3G		
+	2551	Ieos $1		
+	2552	Noon		
+	2553	Noon Pro		
+	2554	SJ2.6		
+	2555	SJ1.5		
+	2556	Skipper		
+	2557	Flacon		
+	2558	Python		
+	2559	Wolverine		
+	2560	Leopard		
+	2561	Boa Plus		
+	2562	Boa		
+	2563	Pelican		
+	2564	Octopus		
+	2565	Crane		
+	2566	Hornbill		
+	2567	Alligator		
+	2568	7 Pro		
+	2569	3T		
+	2570	6T		
+	2571	Reno Z		
+	2572	F11 Pro		
+	2573	F11		
+	2574	Reno		
+	2575	Reno 10X		
+	2576	Reno 10X Zoom		
+	2577	A1K		
+	2578	A5S		
+	2579	F1 Plus		
+	2580	R7 Lite		
+	2581	R7 Plus F		
+	2582	R7 Plus		
+	2583	Neo 7s		
+	2584	Neo 7		
+	2585	F3		
+	2586	R11		
+	2587	A77		
+	2588	A71		
+	2589	R11s		
+	2590	R11s Plus		
+	2591	F5		
+	2592	F5 Youth		
+	2593	A39		
+	2594	R9s		
+	2595	R9s Plus		
+	2596	F3 Plus		
+	2597	A57		
+	2598	A83		
+	2599	A3s		
+	2600	F7		
+	2601	F9 Pro		
+	2602	A83 (2018)		
+	2603	R15 Pro		
+	2604	R15		
+	2605	AX5		
+	2606	RealMe 1		
+	2607	K1		
+	2608	RealMe C1		
+	2609	RealMe C2		
+	2610	RealMe U1		
+	2611	Find X		
+	2612	R17 Pro		
+	2613	R17		
+	2614	F9		
+	2615	R17 Neo		
+	2616	AX7		
+	2617	A37f$1		
+	2618	F1s		
+	2619	Joy Plus		
+	2620	R15x		
+	2621	Realme 2		
+	2622	Realme 2 Pro		
+	2623	Realme 3		
+	2624	Realme 3i		
+	2625	Realme 3 Pro		
+	2626	Realme X		
+	2627	Realme 5		
+	2628	Realme 5 Pro		
+	2629	A7x		
+	2630	A7n		
+	2631	A9		
+	2632	$1 72		
+	2633	Fun $1		
+	2634	Fun 5 4G		
+	2635	One Plus		
+	2636	Smart 9		
+	2637	T-i708D		
+	2638	Eluga $1		
+	2639	Toughpad		
+	2640	P55 Novo 4G		
+	2641	Bee		
+	2642	Clap		
+	2643	Curi Lite		
+	2644	T715		
+	2645	PH4001		
+	2646	$1 4G LTE		
+	2647	PD-3127NC		
+	2648	PD-3127		
+	2649	Ride 4G		
+	2650	Raze		
+	2651	RLTP4028		
+	2652	IO Pro		
+	2653	Smart Stick 4K		
+	2654	Shock 5		
+	2655	Neon Ray		
+	2656	V58		
+	2657	"GALAXY Tab 10.1"""		
+	2658	Galaxy Tab A with S Pen (2019)		
+	2659	GALAXY Tab S4		
+	2660	GALAXY Tab 3 V		
+	2661	"GALAXY Tab 4 7.0"" 3G"		
+	2662	"GALAXY Tab 4 8.0"" WiFi"		
+	2663	"GALAXY Tab 4 8.0"" LTE"		
+	2664	"GALAXY Tab S2 9.7"" WiFi"		
+	2665	"GALAXY Tab S2 9.7"" LTE"		
+	2666	"GALAXY Tab S3 9.7"" WiFi"		
+	2667	"GALAXY Tab S3 9.7"" LTE"		
+	2668	"GALAXY Tab A 7.0"" WiFi"		
+	2669	"GALAXY Tab A 7.0"" LTE"		
+	2670	"GALAXY Tab A 8.0"" WiFi"		
+	2671	"GALAXY Tab A 8.0"" LTE"		
+	2672	"GALAXY Tab A 8.0"" LTE (2019)"		
+	2673	"GALAXY Tab A 9.7"" WiFi"		
+	2674	"GALAXY Tab A 9.7"" LTE"		
+	2675	"GALAXY Tab A 10.1"" WiFi (2016)"		
+	2676	"GALAXY Tab A 10.5"" LTE (2018)"		
+	2677	"GALAXY Tab E 8.0"""		
+	2678	"GALAXY Tab E 9.6"" WiFi"		
+	2679	"GALAXY Tab E 9.6"" 3G"		
+	2680	GALAXY Tab Active		
+	2681	GALAXY Tab Active 2		
+	2682	GALAXY Alpha		
+	2683	GALAXY Jean		
+	2684	GALAXY Ace		
+	2685	GALAXY Ace 4		
+	2686	GALAXY Ace 4 Lite		
+	2687	GALAXY Wide		
+	2688	GALAXY E5		
+	2689	GALAXY E7		
+	2690	GALAXY S3 mini		
+	2691	GALAXY S4 Value Edition		
+	2692	GALAXY POCKET 2		
+	2693	GALAXY Young 2		
+	2694	GALAXY Young 2 Pro		
+	2695	GALAXY S DUOS 2		
+	2696	GALAXY S DUOS 3		
+	2697	GALAXY CORE Prime		
+	2698	GALAXY CORE Prime Value Edition		
+	2699	GALAXY Xcover 3		
+	2700	GALAXY Xcover 4		
+	2701	GALAXY S5 LTE+		
+	2702	GALAXY S5 Active		
+	2703	GALAXY S5 K Sport		
+	2704	GALAXY S6 edge (Softbank)		
+	2705	GALAXY S6 edge		
+	2706	GALAXY S6 edge+		
+	2707	GALAXY S7		
+	2708	GALAXY S7 active		
+	2709	GALAXY S8		
+	2710	GALAXY S8 Active		
+	2711	GALAXY S8+		
+	2712	GALAXY S9		
+	2713	GALAXY S9+		
+	2714	GALAXY S10		
+	2715	GALAXY S10+		
+	2716	GALAXY S10e		
+	2717	GALAXY A3 (2015)		
+	2718	GALAXY A3 (2016)		
+	2719	GALAXY A3 (2017)		
+	2720	GALAXY A5		
+	2721	GALAXY A5 Duos		
+	2722	GALAXY A5 (2015)		
+	2723	GALAXY A5 (2016)		
+	2724	GALAXY A5 (2017)		
+	2725	GALAXY A6		
+	2726	GALAXY A6+		
+	2727	GALAXY A7		
+	2728	GALAXY A7 (2016)		
+	2729	GALAXY A7 (2017)		
+	2730	GALAXY A7 (2018)		
+	2731	GALAXY A8		
+	2732	GALAXY A8 Star		
+	2733	GALAXY A8 (2016)		
+	2734	GALAXY A8 (2018)		
+	2735	GALAXY A8+ (2018)		
+	2736	GALAXY A9		
+	2737	GALAXY A9 7		
+	2738	GALAXY A9 (2018)		
+	2739	GALAXY A9 Pro		
+	2740	GALAXY A10		
+	2741	GALAXY A20		
+	2742	GALAXY A20e		
+	2743	GALAXY A30		
+	2744	GALAXY A40		
+	2745	GALAXY A40s		
+	2746	GALAXY A50		
+	2747	GALAXY A70		
+	2748	GALAXY S III Neo		
+	2749	GALAXY J1		
+	2750	GALAXY J1 mini		
+	2751	GALAXY J1 mini Prime		
+	2752	GALAXY J1 (2016)		
+	2753	GALAXY J1 Ace		
+	2754	GALAXY J2		
+	2755	GALAXY J2 Pro		
+	2756	GALAXY J3 (2016)		
+	2757	GALAXY J3 (2017)		
+	2758	GALAXY J3 (2018)		
+	2759	GALAXY J4		
+	2760	GALAXY J5 (2015)		
+	2761	GALAXY J5 (2016)		
+	2762	GALAXY J5 (2017)		
+	2763	GALAXY J5 Prime		
+	2764	GALAXY J6		
+	2765	GALAXY J6+		
+	2766	GALAXY J4 Core		
+	2767	GALAXY J4+		
+	2768	GALAXY J7		
+	2769	GALAXY J7 (2015)		
+	2770	GALAXY J7 (2018)		
+	2771	GALAXY J7 (2016)		
+	2772	GALAXY J7+ (C7)		
+	2773	GALAXY J7 Prime		
+	2774	GALAXY J7 Prime 2		
+	2775	GALAXY J7 Max		
+	2776	GALAXY J7 Pro		
+	2777	GALAXY J7 Core		
+	2778	GALAXY J7 V		
+	2779	GALAXY J7 7		
+	2780	GALAXY J8		
+	2781	GALAXY J8 Pro		
+	2782	GALAXY J9 7 Prime		
+	2783	GALAXY J9 8 Pro		
+	2784	GALAXY M10		
+	2785	GALAXY M20		
+	2786	GALAXY Round		
+	2787	GALAXY On5		
+	2788	GALAXY On7		
+	2789	GALAXY On7 (2016)		
+	2790	GALAXY On7 Prime		
+	2791	GALAXY C5		
+	2792	GALAXY C5 Pro		
+	2793	GALAXY C7		
+	2794	GALAXY C7 Pro		
+	2795	GALAXY C8		
+	2796	GALAXY C9 Pro		
+	2797	GALAXY Z1		
+	2798	GALAXY Z2		
+	2799	GALAXY Z3		
+	2800	GALAXY Z4		
+	2801	GALAXY Folder		
+	2802	GALAXY Folder 2		
+	2803	GALAXY Note		
+	2804	GALAXY Grand Max		
+	2805	GALAXY Grand Prime		
+	2806	GALAXY Grand Prime Plus		
+	2807	GALAXY J2 Prime (TV)		
+	2808	GALAXY J2 Prime		
+	2809	GALAXY Mega 2		
+	2810	GALAXY Note 8		
+	2811	GALAXY Note 9		
+	2812	GALAXY Note 10		
+	2813	GALAXY Note 10+		
+	2814	N83		
+	2815	N91		
+	2816	G101		
+	2817	Slash 6		
+	2818	Voyager V45		
+	2819	Odin		
+	2820	S$1		
+	2821	V705B		
+	2822	Platinum 5.0M		
+	2823	Elite 5.5 Octa		
+	2824	Elite $1		
+	2825	Fuego $1		
+	2826	T1		
+	2827	T2		
+	2828	M1		
+	2829	M1L		
+	2830	U1		
+	2831	Fractal		
+	2832	Origins Pro		
+	2833	Aerial Plus		
+	2834	SCHON R9		
+	2835	Z72 go		
+	2836	Vega Iron		
+	2837	Gator 3		
+	2838	Turbo C4		
+	2839	Turbo C5		
+	2840	Turbo D4		
+	2841	Turbo E		
+	2842	Cosmo K		
+	2843	Cosmo K Plus		
+	2844	Cosmo K2 Plus		
+	2845	Cosmo L		
+	2846	Cosmo L2		
+	2847	Cosmo M2		
+	2848	Cosmo P5s		
+	2849	Cosmo Q5s		
+	2850	Cosmo Z		
+	2851	Cosmo Z2		
+	2852	L5s		
+	2853	Rocket		
+	2854	Rocket Q-Five		
+	2855	Rocket 2X		
+	2856	Rocket R2402		
+	2857	Rocket R1		
+	2858	Rocket R2		
+	2859	Rocket R3		
+	2860	Rocket S2		
+	2861	Rocket T6 SE		
+	2862	Rocket T6		
+	2863	Rocket T4		
+	2864	Rocket Jetz		
+	2865	Rocket Jetz 5.0		
+	2866	Zap 5		
+	2867	Quadra Rocket		
+	2868	Quadra S2		
+	2869	Quadra V5		
+	2870	Quadra V7		
+	2871	Rocket L501		
+	2872	Prime 7S		
+	2873	Zap 6 Cleo		
+	2874	Crystal 4 W8480		
+	2875	Wizard V		
+	2876	Quadra Mini W7430		
+	2877	Zap 6 Posh		
+	2878	Zap 6 Power		
+	2879	Zap 6 Flaz		
+	2880	Zap 6 Note		
+	2881	Zap 6 Posh Note		
+	2882	PW1100S		
+	2883	Q2352		
+	2884	Cosmica T7800		
+	2885	Rocket Pad		
+	2886	Grace 4G		
+	2887	X Pro		
+	2888	S Max		
+	2889	Q8S55IN4G2		
+	2890	Noir X1S		
+	2891	Luna Pro		
+	2892	Nice S		
+	2893	Blackphone 2		
+	2894	X-Treme PQ$1		
+	2895	X-Style Tab A$1		
+	2896	Aquos Xx3		
+	2897	Aquos zero		
+	2898	Aquos Phone SHL22		
+	2899	Aquos S2		
+	2900	Aquos S3		
+	2901	Aquos S3 Mini		
+	2902	Luna S		
+	2903	Z2		
+	2904	XP3400		
+	2905	XP6700		
+	2906	XP7700		
+	2907	"Fire 7"""		
+	2908	Fire HD 7 2017		
+	2909	Fire HD 8 2016		
+	2910	Fire HD 8 2017		
+	2911	Fire HD 10		
+	2912	Fire HD 10 (2017)		
+	2913	Roar V20		
+	2914	Roar E80		
+	2915	REVVL 2 Plus		
+	2916	Gala G60		
+	2917	LX		
+	2918	Tbook $1		
+	2919	Phantom 6 Plus		
+	2920	Phantom 6		
+	2921	Camon i4		
+	2922	S813G		
+	2923	XTAB C1081HD		
+	2924	XTAB $1		
+	2925	X-pad Plus 7.1 3G		
+	2926	X-pad Plus 7 3G		
+	2927	X-pad Force 8i 3G		
+	2928	X-Force 10 3G		
+	2929	X-pad Force 8 3G		
+	2930	NaviPad 3G		
+	2931	X-pad Style 10		
+	2932	X-pad NAVI 7.3 3G		
+	2933	X-pad NAVI 7.4 3G		
+	2934	X-pad NAVI 10 3G		
+	2935	X-pad NAVI 8.2 3G		
+	2936	NaviPad TM-7049 3G		
+	2937	NaviPad TM-7887 3G		
+	2938	X-pad Rapid 8.2 4G		
+	2939	X-Quad		
+	2940	X-Line		
+	2941	X-Shine		
+	2942	Rock		
+	2943	X-Style		
+	2944	X-pad Style 10 3G		
+	2945	X-Maxi 2		
+	2946	X-Smart		
+	2947	iX-Maxi		
+	2948	X-Selfie		
+	2949	X-Driver Quad		
+	2950	X-Mage		
+	2951	X-Cosmo		
+	2952	X-Force		
+	2953	X-Plus		
+	2954	Giqa 10.1 3G		
+	2955	W503		
+	2956	Yeah Beat		
+	2957	Yeah LIVE		
+	2958	Infinit Lite		
+	2959	Infinit Lite 2		
+	2960	A9 Plus		
+	2961	Coto W418		
+	2962	Coto T117		
+	2963	X1013		
+	2964	T40017		
+	2965	SurfTab 10.1		
+	2966	SurfTab $1		
+	2967	Kyocera DuraForce		
+	2968	UP$1		
+	2969	UP350		
+	2970	UP580		
+	2971	U580		
+	2972	U$1C		
+	2973	Be Touch$1		
+	2974	Be Pure Lite		
+	2975	Be Pure		
+	2976	Be One Lite		
+	2977	Be One		
+	2978	Be X		
+	2979	U007 Pro		
+	2980	U008 Pro		
+	2981	Armor 2		
+	2982	Armor		
+	2983	Power $1		
+	2984	Drone XT		
+	2985	Quattro X		
+	2986	Quattro S		
+	2987	Quattro M		
+	2988	U616		
+	2989	Quattro U710		
+	2990	Quattro Z		
+	2991	Rush		
+	2992	Air 5.5		
+	2993	Apollo Lite		
+	2994	Apollo X		
+	2995	Mars Pro		
+	2996	Thor E		
+	2997	Thor Plus		
+	2998	M5		
+	2999	Ellipsis 10		
+	3000	Ellipsis 8 HD		
+	3001	Ellipsis 8 HD 4G LTE		
+	3002	Ellipsis Kids LTE		
+	3003	Ellipsis 8		
+	3004	Ellipsis 7		
+	3005	VTab 9.7 Pro		
+	3006	VTab Lite II		
+	3007	VTab 10		
+	3008	VTab 7 Eco 3		
+	3009	VTab $1		
+	3010	Venus 4.5		
+	3011	Venus 5.0V		
+	3012	Venus 5.5V		
+	3013	Venus 5.5X		
+	3014	Venus V$1		
+	3015	Venus Z$1		
+	3016	Smart Kicka		
+	3017	Smart First 6		
+	3018	Smart First 7		
+	3019	Smart Mini 7		
+	3020	Smart Turbo 7		
+	3021	Smart E8		
+	3022	Smart Prime 7		
+	3023	Smart C9		
+	3024	Smart X9		
+	3025	Smart N8		
+	3026	Smart Ultra 6		
+	3027	Smart Ultra 7		
+	3028	Smart N9		
+	3029	Smart Platinum 7		
+	3030	Smart Speed 6		
+	3031	Tab Mini 7		
+	3032	Smart Tab N8		
+	3033	Tab Prime 7		
+	3034	Smart Tab 4		
+	3035	VFD $1		
+	3036	Zun XO		
+	3037	Zun XS		
+	3038	Zun X		
+	3039	Xylo $1		
+	3040	Volt S A7		
+	3041	Volt S		
+	3042	Volt X		
+	3043	Gyga QS		
+	3044	Gyga XS		
+	3045	Gyga $1		
+	3046	Jax QS		
+	3047	Jax S A7		
+	3048	Jax $1		
+	3049	Jax Mini		
+	3050	Pluri $17		
+	3051	Pluri $18		
+	3052	Magnet M$1		
+	3053	Navo QS		
+	3054	Xavy T7		
+	3055	CELL-500		
+	3056	VP5004A		
+	3057	Primo S6 Infinity		
+	3058	Fever		
+	3059	Rainbow $1		
+	3060	Jerry Max		
+	3061	Jerry 3		
+	3062	Jerry 2		
+	3063	Jerry		
+	3064	Freddy		
+	3065	Lenny 5		
+	3066	Lenny 3 Max		
+	3067	Lenny 4 Plus		
+	3068	Lenny $1		
+	3069	Sunset 2		
+	3070	Sunny 2 Plus		
+	3071	Sunny 2		
+	3072	Sunny		
+	3073	Tommy 3		
+	3074	Tommy 2 Plus		
+	3075	Tommy 2		
+	3076	Tommy		
+	3077	Harry		
+	3078	WIM Lite		
+	3079	Pulp Fab 4G		
+	3080	Pulp Fab		
+	3081	Pulp 4G		
+	3082	Pulp		
+	3083	Robby		
+	3084	U Pulse Lite		
+	3085	U Pulse		
+	3086	U Feel Lite		
+	3087	U Feel Prime		
+	3088	U Feel		
+	3089	View XL		
+	3090	View Prime		
+	3091	View Lite		
+	3092	View 2		
+	3093	City $1		
+	3094	WePlus 3		
+	3095	Spark +		
+	3096	Spark X		
+	3097	Swift 2 $1		
+	3098	Swift 2		
+	3099	Wiam #24		
+	3100	AT-AS$1		
+	3101	Scorpio		
+	3102	ZEN U5+		
+	3103	Black Shark		
+	3104	Black Shark 2		
+	3105	Hongmi 2		
+	3106	MI MIX 2S		
+	3107	MI MIX 2		
+	3108	MI MIX		
+	3109	Pocophone F1		
+	3110	Note		
+	3111	CE$1		
+	3112	Black 1X		
+	3113	Altitude		
+	3114	Andy 3.5E2I		
+	3115	Andy 3.5EI2		
+	3116	Andy 3.5EI		
+	3117	Andy 4.5EL		
+	3118	Andy 4.7T		
+	3119	Andy 4E2I		
+	3120	Andy 4E4		
+	3121	Andy 4EI2		
+	3122	Andy 4EI		
+	3123	Andy 4EL2 LTE		
+	3124	Andy 55EI		
+	3125	Andy 5EI		
+	3126	Andy 5EL2 LTE		
+	3127	Andy 5ML LTE		
+	3128	Andy 5T		
+	3129	Andy A3.5EP		
+	3130	Andy A5EI		
+	3131	Andy C5QL		
+	3132	Yuphoria		
+	3133	Yureka		
+	3134	Muzic		
+	3135	I7		
+	3136	Cheer 3G		
+	3137	TV Next		
+	3138	Zone 3G		
+	3139	Q2729		
+	3140	Q2688		
+	3141	Win 3G		
+	3142	Care 3G		
+	3143	Braw 3G		
+	3144	Q3022		
+	3145	Q328 M9		
+	3146	Speed 3G		
+	3147	TV I4		
+	3148	Q.Dee		
+	3149	Q.Up C5		
+	3150	Q.Up		
+	3151	Q.Boss P99		
+	3152	Q.Dee R09		
+	3153	Q.Good M9		
+	3154	Q.Hi S1		
+	3155	Q.Hi		
+	3156	Q.Hot P7 3G		
+	3157	Q.Hot		
+	3158	Q.Me Phone 7 3G		
+	3159	Q.Me Plus 7		
+	3160	Q.Me		
+	3161	Q.Mate R99		
+	3162	Q.Next B7		
+	3163	Q.Next J2		
+	3164	Q.Top X8		
+	3165	Q.You		
+	3166	QTab Tab4		
+	3167	Q88		
+	3168	Excite AT10$1-A		
+	3169	Fly 5 Lite		
+	3170	Fly 3		
+	3171	Smart Point X5010		
+	3172	Cirrus 3		
+	3173	Cumulus 1		
+	3174	Cirrus 6		
+	3175	Cirrus 7		
+	3176	Nimbus 9		
+	3177	Stratus 5		
+	3178	Stratus 3		
+	3179	Cirrus 2		
+	3180	Stratus 6		
+	3181	Stratus 1		
+	3182	Stratus 2		
+	3183	Nimbus 3		
+	3184	Cirrus 1		
+	3185	Cirrus 4		
+	3186	Nimbus 7		
+	3187	Nimbus 4		
+	3188	Cirrus 8		
+	3189	Cirrus 9		
+	3190	Power Plus FHD		
+	3191	Cirrus 11		
+	3192	Cirrus 12		
+	3193	Cirrus 13		
+	3194	Selfie 1		
+	3195	Power Plus 1		
+	3196	Cirrus 14		
+	3197	Cirrus 16		
+	3198	Knockout		
+	3199	Power Plus 2		
+	3200	Nimbus 17		
+	3201	Memory Plus		
+	3202	Сhamp		
+	3203	Power Plus XXL		
+	3204	Nimbus 8		
+	3205	Nimbus 2		
+	3206	Nimbus 10		
+	3207	Nimbus 12		
+	3208	Nimbus 1		
+	3209	Stratus 4		
+	3210	Stratus 8		
+	3211	Stratus 9		
+	3212	Nimbus 11		
+	3213	Nimbus 14		
+	3214	Nimbus 15		
+	3215	Nimbus 16		
+	3216	Stratus 7		
+	3217	Samurai Miyabi		
+	3218	Musashi		
+	3219	Ice 2		
+	3220	Ice 2 Plus		
+	3221	Raijin		
+	3222	Nico		
+	3223	XM		
+	3224	Priori 2		
+	3225	Priori 3		
+	3226	Priori 4		
+	3227	Priori 3S LTE		
+	3228	Samurai Kiwami		
+	3229	Samurai Rei		
+	3230	Katana 1		
+	3231	Leopardo		
+	3232	Libelula		
+	3233	Oso		
+	3234	Pingûino		
+	3235	Zebra		
+	3236	C2 II		
+	3237	ZP980+		
+	3238	Speed 7 Plus		
+	3239	Speed 7		
+	3240	Leader Max		
+	3241	Libero HD		
+	3242	Libero		
+	3243	Color C		
+	3244	Field		
+	3245	Shining		
+	3246	Pilot		
+	3247	Blade Eg		
+	3248	Avid		
+	3249	Prestige 2		
+	3250	Tempo X		
+	3251	Warp 4G		
+	3252	Blade Force		
+	3253	Warp Sync		
+	3254	Warp 7		
+	3255	Max XL		
+	3256	Nubia Z5S Mini		
+	3257	Nubia Z9 max dual		
+	3258	Nubia Z11		
+	3259	Nubia Z11 Max		
+	3260	Nubia Z11 mini		
+	3261	Nubia Z11 mini S		
+	3262	Nubia Z18S		
+	3263	Nubia M2		
+	3264	Nubia Z17		
+	3265	Nubia Z17 Mini		
+	3266	Nubia Z17S		
+	3267	Nubia Z17 Lite		
+	3268	Nubia Z17 mini		
+	3269	Nubia M2 Lite		
+	3270	Nubia M2 Play		
+	3271	Nubia N1		
+	3272	Nubia N1 Lite		
+	3273	Nubia N2		
+	3274	Grand Memo LTE		
+	3275	Joey Jump 2		
+	3276	Blade C		
+	3277	Blade C2		
+	3278	Blade G Pro		
+	3279	Lord		
+	3280	Grand X2		
+	3281	Grand X		
+	3282	Grand X4		
+	3283	Grand X Max+		
+	3284	Grand Era		
+	3285	Kis Plus		
+	3286	Blade $1		
+	3287	Blade L2 Plus		
+	3288	Blade L2		
+	3289	Blade L3 Plus		
+	3290	Blade L3 Apex		
+	3291	Blade L3		
+	3292	Blade L5 Plus		
+	3293	Blade L5		
+	3294	Blade L6		
+	3295	Blade L7A		
+	3296	Blade L7		
+	3297	Blade L8		
+	3298	Blade S6 Plus		
+	3299	Blade S7		
+	3300	Blade V6 Max		
+	3301	Blade V6 Plus		
+	3302	Blade V6		
+	3303	Blade V7 Lite		
+	3304	Blade V7		
+	3305	Blade X7		
+	3306	Blade V8Q		
+	3307	Blade V8 SE		
+	3308	Blade V9 Vita		
+	3309	Blade V9		
+	3310	Blade V10 Vita		
+	3311	Blade V8 Lite		
+	3312	Blade V8 Mini		
+	3313	Obsidian		
+	3314	Blade Max 3		
+	3315	Blade Spark		
+	3316	Blade V8 Pro		
+	3317	Blade Vantage		
+	3318	Unico LTE		
+	3319	Blade X		
+	3320	Blade Z Max Pro		
+	3321	Blade Z Max		
+	3322	Blade X Max		
+	3323	Citrine LTE		
+	3324	Cymbal-C LTE		
+	3325	Cymbal LTE		
+	3326	Cymbal-G LTE		
+	3327	Cymbal-T LTE		
+	3328	Jasper LTE		
+	3329	Kis II Max		
+	3330	Kis 3		
+	3331	Majesty Pro LTE		
+	3332	Majesty Pro Plus LTE		
+	3333	Midnight Pro LTE		
+	3334	Fanfare		
+	3335	Maven		
+	3336	Fanfare 2		
+	3337	Maven 2		
+	3338	Sonata 3		
+	3339	Maven 3		
+	3340	Prelude Plus		
+	3341	Overture 3		
+	3342	Fanfare 3		
+	3343	Avid Plus		
+	3344	Avid 4		
+	3345	Avid TRIO		
+	3346	ZFive 2 LTE		
+	3347	ZFive C LTE		
+	3348	ZFive G LTE		
+	3349	ZFive L LTE		
+	3350	ZMax Grand LTE		
+	3351	ZMax Champ LTE		
+	3352	ZMax 2		
+	3353	Max Duo LTE		
+	3354	ZMax Z970		
+	3355	MAX Blue LTE		
+	3356	Avail 2		
+	3357	Axon M		
+	3358	Axon Mini		
+	3359	Axon Tianji		
+	3360	Axon 7		
+	3361	Axon Pro		
+	3362	Axon 7 Mini		
+	3363	Axon 10 Pro		
+	3364	Zinger		
+	3365	Geek		
+	3366	Score		
+	3367	Groove		
+	3368	Adamant		
+	3369	Covet		
+	3370	Magno		
+	3371	Onix S		
+	3372	Stedi		
+	3373	Stellar Z		
+	3374	Cloud $1		
+	3375	Smart Race 4G		
+	3376	Smart Sprint 4G		
+	3377	Login+		
+	3378	Login 4 LTE		
+	3379	Optima		
+	3380	Mint		
+	3381	Andromeda S$1		
+	3382	TangoTab		
+	3383	Ultimax		
+	3384	Valumax		
+	3385	Presto		
+	3386	S72-B		
+	3387	SX2W		
+	3388	My Pad 7s		
+	3389	Joy 10 Pro		
+	3390	Joy 7 Max		
+	3391	V28 LTE		
+	3392	Box $1		
+	3393	MXQ Pro		
+	3394	MXQ		
+	3395	Smart Max 4.0 Plus		
+	3396	Smart 4G Speedy 5.0 Plus		
+participant_isbot	-	Bot		
+	-99	Unknown		
+	1	360Spider		
+	2	Aboundexbot		
+	3	Acoon		
+	4	AddThis.com		
+	5	aHrefs Bot		
+	6	Alexa Crawler		
+	7	Amorank Spider		
+	8	Analytics SEO Crawler		
+	9	archive.org bot		
+	10	Ask Jeeves		
+	11	Backlink-Ceck.de		
+	12	BacklinkCrawler		
+	13	Baidu Spider		
+	14	BingBot		
+	15	Blekkobot		
+	16	BLEXBot Crawler		
+	17	Bloglovin		
+	18	Bountii Bot		
+	19	Browsershots		
+	20	Butterfly Robot		
+	21	CareerBot		
+	22	ccBot crawler		
+	23	Cliqzbot		
+	24	CloudFlare Always Online		
+	25	CommaFeed		
+	26	Dazoobot		
+	27	Discobot		
+	28	DotBot		
+	29	Easou Spider		
+	30	EMail Exractor		
+	31	ExaBot		
+	32	ExactSeek Crawler		
+	33	Ezooms		
+	34	Facebook External Hit		
+	35	Feedbin		
+	36	FeedBurner		
+	37	Feedly		
+	38	Feedspot		
+	39	Fever		
+	40	Genieo Web filter		
+	41	Goo		
+	42	Google PageSpeed Insights		
+	43	Googlebot		
+	44	Heritrix		
+	45	HTTPMon		
+	46	IIS Site Analysis		
+	47	Kouio		
+	48	Linkdex Bot		
+	49	LinkedIn Bot		
+	50	Mail.Ru Bot		
+	51	Magpie-Crawler		
+	52	MagpieRSS		
+	53	Meanpath Bot		
+	54	Mixrank Bot		
+	55	MJ12 Bot		
+	56	MojeekBot		
+	57	NalezenCzBot		
+	58	Netcraft Survey Bot		
+	59	Netvibes		
+	60	NewsBlur		
+	61	NewsGator		
+	62	NLCrawler		
+	63	Omgili bot		
+	64	Openindex Spider		
+	65	OpenLinkProfiler		
+	66	OpenWebSpider		
+	67	PaperLiBot		
+	68	Picsearch bot		
+	69	Pingdom Bot		
+	70	QuerySeekerSpider		
+	71	Reddit Bot		
+	72	Rogerbot		
+	73	Screaming Frog SEO Spider		
+	74	ScreenerBot		
+	75	Semrush Bot		
+	76	Sensika Bot		
+	77	SEOENGBot		
+	78	Seznam Bot		
+	79	ShopWiki		
+	80	SilverReader		
+	81	SimplePie		
+	82	SISTRIX Crawler		
+	83	Sogou Spider		
+	84	Soso Spider		
+	85	Superfeedr Bot		
+	86	Spinn3r		
+	87	Sputnik Bot		
+	88	Survey Bot		
+	89	TinEye Crawler		
+	90	Tiny Tiny RSS		
+	91	TurnitinBot		
+	92	TweetedTimes Bot		
+	93	Tweetmeme Bot		
+	94	Twitterbot		
+	95	Uptime Robot		
+	96	URLAppendBot		
+	97	Visual Site Mapper Crawler		
+	98	Voila Bot		
+	99	W3C CSS Validator		
+	100	W3C I18N Checker		
+	101	W3C Link Checker		
+	102	W3C Markup Validation Service		
+	103	W3C MobileOK Checker		
+	104	W3C Unified Validator		
+	105	WeSEE:Search		
+	106	WebbCrawler		
+	107	Wotbox		
+	108	YaCy		
+	109	Yahoo! Slurp		
+	110	Yandex Bot		
+	111	Yeti/Naverbot		
+	112	Youdao Bot		
+	113	Yunyun Bot		
+	114	Zookabot		
+	115	ZumBot		
+	116	Yottaa Site Monitor		
+	117	Lycos		
+	118	Inktomi Slurp		
+	119	Speedy		
+	120	ScoutJet		
+	121	NetResearchServer		
+	122	Scooter		
+	123	Gigabot		
+	124	Charlotte		
+	125	Pompos		
+	126	ichiro		
+	127	PagePeeker		
+	128	WebThumbnail		
+	129	Willow Internet Crawler		
+	130	EmailWolf		
+	131	Bot		
+	132	Nutch-based Bot		
+	133	Generic Bot		
+	134	Applebot		
+	135	Castro 2		
+	136	Backlink-Check.de		
+	137	BazQux Reader		
+	138	Blogtrottr		
+	139	BUbiNG		
+	140	Cốc Cốc Bot		
+	141	Dataprovider		
+	142	Daum		
+	143	Domain Re-Animator Bot		
+	144	Feed Wrangler		
+	145	Gluten Free Crawler		
+	146	Google Partner Monitoring		
+	147	Gmail Image Proxy		
+	148	ICC-Crawler		
+	149	Larbin web crawler		
+	150	LTX71		
+	151	MetaJobBot		
+	152	Orange Bot		
+	153	PHP Server Monitor		
+	154	Qwantify		
+	155	Rainmeter		
+	156	ROI Hunter		
+	157	SafeDNSBot		
+	158	Scrapy		
+	159	Skype URI Preview		
+	160	Sixy.ch		
+	161	Slackbot		
+	162	TelgramBot		
+	163	WebSitePulse		
+	164	Yahoo! Link Preview		
+	165	Yahoo! Cache System		
+	166	Yourls		
+	167	Yahoo Gemini		
+	168	Outbrain		
+	169	HubPages		
+	170	Pinterest		
+	171	Site24x7 Website Monitoring		
+	172	Monitor.Us		
+	173	Catchpoint		
+	174	Zao		
+	175	NetLyzer FastProbe		
+	176	ADMantX		
+	177	Server Density		
+participant_continent	-	Kontinent		
+	-99	Unknown		
+	1	Anonymous Proxy		
+	2	Satellite Provider		
+	3	Europe		
+	4	Asia		
+	5	North America		
+	6	Africa		
+	7	Oceania		
+	8	South America		
+	9	Antarctica		
+participant_country	-	Land		
+	-99	Unknown		
+	1	Satellite Provider		
+	2	Other Country		
+	3	Andorra		
+	4	United Arab Emirates		
+	5	Afghanistan		
+	6	Antigua and Barbuda		
+	7	Anguilla		
+	8	Albania		
+	9	Armenia		
+	10	Angola		
+	11	Asia/Pacific Region		
+	12	Antarctica		
+	13	Argentina		
+	14	American Samoa		
+	15	Austria		
+	16	Australia		
+	17	Aruba		
+	18	Aland Islands		
+	19	Azerbaijan		
+	20	Bosnia and Herzegovina		
+	21	Barbados		
+	22	Bangladesh		
+	23	Belgium		
+	24	Burkina Faso		
+	25	Bulgaria		
+	26	Bahrain		
+	27	Burundi		
+	28	Benin		
+	29	Saint Barthelemy		
+	30	Bermuda		
+	31	Brunei		
+	32	Bolivia		
+	33	Bonaire, Saint Eustatius and Saba		
+	34	Brazil		
+	35	Bahamas		
+	36	Bhutan		
+	37	Bouvet Island		
+	38	Botswana		
+	39	Belarus		
+	40	Belize		
+	41	Canada		
+	42	Cocos Islands		
+	43	Democratic Republic of the Congo		
+	44	Central African Republic		
+	45	Republic of the Congo		
+	46	Switzerland		
+	47	Ivory Coast		
+	48	Cook Islands		
+	49	Chile		
+	50	Cameroon		
+	51	China		
+	52	Colombia		
+	53	Costa Rica		
+	54	Cuba		
+	55	Cape Verde		
+	56	Curacao		
+	57	Christmas Island		
+	58	Cyprus		
+	59	Czechia		
+	60	Germany		
+	61	Djibouti		
+	62	Denmark		
+	63	Dominica		
+	64	Dominican Republic		
+	65	Algeria		
+	66	Ecuador		
+	67	Estonia		
+	68	Egypt		
+	69	Western Sahara		
+	70	Eritrea		
+	71	Spain		
+	72	Ethiopia		
+	73	Europe		
+	74	Finland		
+	75	Fiji		
+	76	Falkland Islands		
+	77	Micronesia		
+	78	Faroe Islands		
+	79	France		
+	80	Gabon		
+	81	United Kingdom		
+	82	Grenada		
+	83	Georgia		
+	84	French Guiana		
+	85	Guernsey		
+	86	Ghana		
+	87	Gibraltar		
+	88	Greenland		
+	89	Gambia		
+	90	Guinea		
+	91	Guadeloupe		
+	92	Equatorial Guinea		
+	93	Greece		
+	94	South Georgia and the South Sandwich Islands		
+	95	Guatemala		
+	96	Guam		
+	97	Guinea-Bissau		
+	98	Guyana		
+	99	Hong Kong		
+	100	Heard Island and McDonald Islands		
+	101	Honduras		
+	102	Croatia		
+	103	Haiti		
+	104	Hungary		
+	105	Indonesia		
+	106	Ireland		
+	107	Israel		
+	108	Isle of Man		
+	109	India		
+	110	British Indian Ocean Territory		
+	111	Iraq		
+	112	Iran		
+	113	Iceland		
+	114	Italy		
+	115	Jersey		
+	116	Jamaica		
+	117	Jordan		
+	118	Japan		
+	119	Kenya		
+	120	Kyrgyzstan		
+	121	Cambodia		
+	122	Kiribati		
+	123	Comoros		
+	124	Saint Kitts and Nevis		
+	125	North Korea		
+	126	South Korea		
+	127	Kuwait		
+	128	Cayman Islands		
+	129	Kazakhstan		
+	130	Laos		
+	131	Lebanon		
+	132	Saint Lucia		
+	133	Liechtenstein		
+	134	Sri Lanka		
+	135	Liberia		
+	136	Lesotho		
+	137	Lithuania		
+	138	Luxembourg		
+	139	Latvia		
+	140	Libya		
+	141	Morocco		
+	142	Monaco		
+	143	Moldova		
+	144	Montenegro		
+	145	Saint Martin		
+	146	Madagascar		
+	147	Marshall Islands		
+	148	Macedonia		
+	149	Mali		
+	150	Myanmar		
+	151	Mongolia		
+	152	Macao		
+	153	Northern Mariana Islands		
+	154	Martinique		
+	155	Mauritania		
+	156	Montserrat		
+	157	Malta		
+	158	Mauritius		
+	159	Maldives		
+	160	Malawi		
+	161	Mexico		
+	162	Malaysia		
+	163	Mozambique		
+	164	Namibia		
+	165	New Caledonia		
+	166	Niger		
+	167	Norfolk Island		
+	168	Nigeria		
+	169	Nicaragua		
+	170	Netherlands		
+	171	Norway		
+	172	Nepal		
+	173	Nauru		
+	174	Niue		
+	175	New Zealand		
+	176	Oman		
+	177	Panama		
+	178	Peru		
+	179	French Polynesia		
+	180	Papua New Guinea		
+	181	Philippines		
+	182	Pakistan		
+	183	Poland		
+	184	Saint Pierre and Miquelon		
+	185	Pitcairn		
+	186	Puerto Rico		
+	187	Palestinian Territory		
+	188	Portugal		
+	189	Palau		
+	190	Paraguay		
+	191	Qatar		
+	192	Reunion		
+	193	Romania		
+	194	Serbia		
+	195	Russia		
+	196	Rwanda		
+	197	Saudi Arabia		
+	198	Solomon Islands		
+	199	Seychelles		
+	200	Sudan		
+	201	Sweden		
+	202	Singapore		
+	203	Saint Helena		
+	204	Slovenia		
+	205	Svalbard and Jan Mayen		
+	206	Slovakia		
+	207	Sierra Leone		
+	208	San Marino		
+	209	Senegal		
+	210	Somalia		
+	211	Suriname		
+	212	South Sudan		
+	213	Sao Tome and Principe		
+	214	El Salvador		
+	215	Sint Maarten		
+	216	Syria		
+	217	Swaziland		
+	218	Turks and Caicos Islands		
+	219	Chad		
+	220	French Southern Territories		
+	221	Togo		
+	222	Thailand		
+	223	Tajikistan		
+	224	Tokelau		
+	225	East Timor		
+	226	Turkmenistan		
+	227	Tunisia		
+	228	Tonga		
+	229	Turkey		
+	230	Trinidad and Tobago		
+	231	Tuvalu		
+	232	Taiwan		
+	233	Tanzania		
+	234	Ukraine		
+	235	Uganda		
+	236	United States Minor Outlying Islands		
+	237	United States		
+	238	Uruguay		
+	239	Uzbekistan		
+	240	Vatican		
+	241	Saint Vincent and the Grenadines		
+	242	Venezuela		
+	243	British Virgin Islands		
+	244	U.S. Virgin Islands		
+	245	Vietnam		
+	246	Vanuatu		
+	247	Wallis and Futuna		
+	248	Samoa		
+	249	Yemen		
+	250	Mayotte		
+	251	South Africa		
+	252	Zambia		
+	253	Zimbabwe		
+	254	Kosovo		
+	255	Serbia and Montenegro		
+	256	Netherlands Antilles		
+participant_region	-	Region		
+participant_city	-	Stadt		
